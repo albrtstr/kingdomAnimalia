@@ -68,12 +68,12 @@
         android:orientation="horizontal"
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true">
-        <Button
+        <ImageButton
             android:id="@+id/button_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_jelajah">
-        </Button>
+        </ImageButton>
     </LinearLayout>
 
     <LinearLayout
