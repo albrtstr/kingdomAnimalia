@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingdomAnimalia">
-        <activity android:name=".menu_kdi_2"></activity>
+        <activity android:name=".filum_porifera"></activity>
+        <activity android:name=".menu_jelajah_filum" />
+        <activity android:name=".menu_kdi_2" />
         <activity android:name=".menu_kdi" />
         <activity android:name=".menu_screen" />
         <activity android:name=".petunjuk_screen" />

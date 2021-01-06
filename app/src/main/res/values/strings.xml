@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Kingdom Animalia</string>
     <string name="text_login">Silahkan masukkan nama Anda pada kolom dibawah untuk melakukan penjelajahan di dunia hewan</string>
+    <string name="text_filum_porifera">Porifera merupakan hewan invertebrata yang tubuhnya berpori seperti busa atau spons.</string>
 </resources>
