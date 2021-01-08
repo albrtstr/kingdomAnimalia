@@ -18,4 +18,14 @@
     <string name="asset_porifera_demospongiae">asset porifera_demospongiae</string>
     <string name="title_porifera_demospongiae">title porifera_demospongiae</string>
     <string name="content_porifera_demospongiae">content porifera_demospongiae</string>
+    <string name="text_filum_coelenterata">Coelenterata merupakan hewan invertebrata yang memiliki sel penyengat dan memiliki rongga tubuh yang berfungsi sebagai alat pencernaan.</string>
+    <string name="attribute_line">attribute_line</string>
+    <string name="title_filum">title filum</string>
+    <string name="content_filum">content filum</string>
+    <string name="title_kelas_filum">title kelas filum</string>
+    <string name="asset_kelas_filum">asset kelas filum</string>
+    <string name="button_kelas_filum">button kelas filum</string>
+    <string name="asset_coelenterata">asset coelenterata</string>
+    <string name="title_coelenterata">title coelenterata</string>
+    <string name="content_coelenterata">content coelenterata</string>
 </resources>

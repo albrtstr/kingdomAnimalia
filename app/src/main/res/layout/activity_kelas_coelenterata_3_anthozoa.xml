@@ -10,28 +10,27 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="316dp"
-        android:gravity="center"
         android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
         tools:ignore="UselessParent">
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="80dp"
-            android:background="@drawable/title_struktur_porifera"
-            android:contentDescription="@string/title_filum" />
-
+            android:background="@drawable/asset_coelenterata_3"
+            android:contentDescription="@string/asset_coelenterata"/>
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_coelenterata_3"
+            android:contentDescription="@string/title_coelenterata"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/asset_10"
-            android:contentDescription="@string/content_filum">
-        </ImageView>
-
+            android:layout_marginTop="60dp"
+            android:background="@drawable/content_coelenterata_3"
+            android:contentDescription="@string/content_coelenterata"/>
     </LinearLayout>
 </RelativeLayout>

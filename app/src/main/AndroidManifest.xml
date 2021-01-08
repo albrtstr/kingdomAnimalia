@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingdomAnimalia">
-        <activity android:name=".kelas_porifera_3_demospongiae"></activity>
+        <activity android:name=".kelas_coelenterata_3_anthozoa"></activity>
+        <activity android:name=".kelas_coelenterata_2_scypozoa" />
+        <activity android:name=".kelas_coelenterata_1_hydrozoa" />
+        <activity android:name=".kelas_coelenterata" />
+        <activity android:name=".struktur_coelenterata" />
+        <activity android:name=".filum_coelenterata" />
+        <activity android:name=".kelas_porifera_3_demospongiae" />
         <activity android:name=".kelas_porifera_2_hexatinellide" />
         <activity android:name=".kelas_porifera_1_calcarea" />
         <activity android:name=".kelas_porifera" />
