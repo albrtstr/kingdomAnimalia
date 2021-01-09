@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingdomAnimalia">
+        <activity android:name=".hal37_nemathelmintes_1_ascaris"/>
         <activity android:name=".hal36_contoh_nemathelminthes"></activity>
         <activity android:name=".hal35_struktur_nemathelminthes" />
         <activity android:name=".hal34_filum_nemathelminthes" />
