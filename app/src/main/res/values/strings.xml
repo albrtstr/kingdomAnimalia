@@ -29,4 +29,20 @@
     <string name="title_coelenterata">title coelenterata</string>
     <string name="content_coelenterata">content coelenterata</string>
     <string name="text_filum_platyhelminthes">Platyhelminthes merupakan hewan yang memiliki tiga lapisan sel (triploblastik).</string>
+    <string name="asset_platyhelminthes">asset_platyhelminthes</string>
+    <string name="title_platyhelminthes">title_platyhelminthes</string>
+    <string name="content_platyhelminthes">content_platyhelminthes</string>
+    <string name="daur_hidup_fasciola_hepatica">daur hidup fasciola hepatica</string>
+    <string name="text_filum_nemathelminthes">Nemathelminthes merupakan hewan pseudoselomata yang berbentuk bulat panjang seperti benang (cacing gilig).</string>
+    <string name="contoh_nemathelminthes">contoh nemathelminthes</string>
+    <string name="kingdom_animalia">Kingdom Animalia</string>
+    <string name="menu">Menu</string>
+    <string name="button_menu">button menu</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="name">Name</string>
+    <string name="button_jelajah">button jelajah</string>
+    <string name="image_welcome">image welcome</string>
+    <string name="petunjuk">Petunjuk</string>
+    <string name="icon_petunjuk">icon petunjuk</string>
+    <string name="gambar">gambar</string>
 </resources>
