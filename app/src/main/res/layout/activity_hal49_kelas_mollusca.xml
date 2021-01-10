@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:id="@+id/ln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_kelas_mollusca"
+            android:contentDescription="@string/title_kelas_filum" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="39dp"
+                android:background="@drawable/asset_71_gastropoda"
+                android:contentDescription="@string/asset_kelas_filum" />
+            <ImageButton
+                android:id="@+id/button_mollusca_1_gastropoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_mollusca_1_gastropoda"
+                android:contentDescription="@string/button_kelas_filum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="45dp"
+                android:background="@drawable/asset_72_pelecypoda"
+                android:contentDescription="@string/asset_kelas_filum" />
+
+            <ImageButton
+                android:id="@+id/button_mollusca_2_pelecypoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_mollusca_2_pelecypoda"
+                android:contentDescription="@string/button_kelas_filum" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="54dp"
+                android:background="@drawable/asset_73_cephalopoda"
+                android:contentDescription="@string/asset_kelas_filum" />
+            <ImageButton
+                android:id="@+id/button_mollusca_3_cephalopoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_mollusca_3_cephalopoda"
+                android:contentDescription="@string/asset_kelas_filum" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

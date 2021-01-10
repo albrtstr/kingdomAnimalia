@@ -20,23 +20,23 @@
         tools:ignore="UselessParent">
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="169dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/asset_60_nemathel"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/asset_73_cephalopoda"
             android:contentDescription="@string/title_filum" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="186dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/title_nemahelmintes_3_oxyuris"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/title_cephalopoda"
             android:contentDescription="@string/content_filum" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/content_hal39_nemahelmintes_3_oxyuris"
+            android:layout_height="396dp"
+            android:background="@drawable/content_mollusca_3_cephalopoda"
             android:contentDescription="@string/content_filum" />
     </LinearLayout>
 </RelativeLayout>

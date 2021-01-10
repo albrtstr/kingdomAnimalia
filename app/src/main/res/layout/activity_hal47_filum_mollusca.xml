@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/spacemono_regular"
-            android:text="FILUM\nNEMATHELMINTHES"
+            android:text="FILUM\nMOLLUSCA"
             android:textAlignment="center"
             android:textColor="#FCDC97"
             android:textSize="33sp"/>
@@ -54,7 +54,7 @@
             android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/text_filum_annelida"
+            android:text="@string/text_filum_mollusca"
             android:textAlignment="center"
             android:fontFamily="@font/spacemono_regular"
             android:textSize="20sp"

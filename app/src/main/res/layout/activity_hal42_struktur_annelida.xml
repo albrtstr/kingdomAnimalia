@@ -13,8 +13,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="31dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="316dp"
         android:gravity="center"
         android:orientation="vertical"
         tools:ignore="UselessParent">
@@ -22,21 +22,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/asset_60_nemathel"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/title_struktur_annelida"
             android:contentDescription="@string/title_filum" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/title_nemahelmintes_3_oxyuris"
-            android:contentDescription="@string/content_filum" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/content_hal39_nemahelmintes_3_oxyuris"
+            android:background="@drawable/asset_tubuh_annelida"
             android:contentDescription="@string/content_filum" />
     </LinearLayout>
 </RelativeLayout>

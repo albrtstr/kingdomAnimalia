@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Kingdom Animalia</string>
     <string name="text_login">Silahkan masukkan nama Anda pada kolom dibawah untuk melakukan penjelajahan di dunia hewan</string>
+    <string name="text_penutup">Anda telah menyelesaikan penjelajahan pada delapan filum Kingdom Animalia. Sekarang saatnya untuk berenang menuju misi berikutnya.</string>
     <string name="text_filum_porifera">Porifera merupakan hewan invertebrata yang tubuhnya berpori seperti busa atau spons.</string>
     <string name="title_kelas_porifera">title kelas porifera</string>
     <string name="asset_calcarea">asset calcarea</string>
@@ -21,7 +22,11 @@
     <string name="text_filum_coelenterata">Coelenterata merupakan hewan invertebrata yang memiliki sel penyengat dan memiliki rongga tubuh yang berfungsi sebagai alat pencernaan.</string>
     <string name="attribute_line">attribute_line</string>
     <string name="title_filum">title filum</string>
+    <string name="title_tts">title tts</string>
     <string name="content_filum">content filum</string>
+    <string name="title_profil">title_profil_pengembang</string>
+    <string name="title_eval">title_evaluasi</string>
+    <string name="content_tts">content tts</string>
     <string name="title_kelas_filum">title kelas filum</string>
     <string name="asset_kelas_filum">asset kelas filum</string>
     <string name="button_kelas_filum">button kelas filum</string>
@@ -34,14 +39,20 @@
     <string name="content_platyhelminthes">content_platyhelminthes</string>
     <string name="daur_hidup_fasciola_hepatica">daur hidup fasciola hepatica</string>
     <string name="text_filum_nemathelminthes">Nemathelminthes merupakan hewan pseudoselomata yang berbentuk bulat panjang seperti benang (cacing gilig).</string>
+    <string name="text_filum_annelida">Annelida (cacing gelang) merupakan hewan triploblastik yang sudah memiliki rongga tubuh sejati (selomata). Annelida memiliki tubuh yang bersegmen.</string>
+    <string name="text_filum_mollusca">Mollusca merupakan kelompok hewan bertubuh lunak, dimana seringkali tubuhnya dilindungi oleh cangkang. Hewan ini memiliki tubuh simetri bilateral dan tergolong triploblastik selomata.</string>
+    <string name="text_filum_arthropoda">Arthropoda merupakan hewan yang memiliki ciri kaki beruas, berbuku, atau bersegmen. Segmen juga terdapat pada tubuhnya. Tubuh Arthropoda yaitu simetri bilateral dantergolong trploblastik selomata.</string>
+    <string name="text_filum_enchinodermata">Echinodermata adalah kelompok hewan triploblastik selomata yang memiliki ciri khas adanya rangka dalam (endoskeleton) berduri yang menembus kulit.</string>
     <string name="contoh_nemathelminthes">contoh nemathelminthes</string>
     <string name="kingdom_animalia">Kingdom Animalia</string>
     <string name="menu">Menu</string>
     <string name="button_menu">button menu</string>
     <string name="selamat_datang">Selamat Datang</string>
+    <string name="terima_kasih">Terima Kasih</string>
     <string name="name">Name</string>
     <string name="button_jelajah">button jelajah</string>
     <string name="image_welcome">image welcome</string>
+    <string name="image_bye">image bye</string>
     <string name="petunjuk">Petunjuk</string>
     <string name="icon_petunjuk">icon petunjuk</string>
     <string name="gambar">gambar</string>

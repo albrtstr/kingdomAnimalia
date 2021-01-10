@@ -39,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/spacemono_regular"
-            android:text="FILUM\nNEMATHELMINTHES"
+            android:text="FILUM\nANNELIDA"
             android:textAlignment="center"
             android:textColor="#FCDC97"
             android:textSize="33sp"/>
