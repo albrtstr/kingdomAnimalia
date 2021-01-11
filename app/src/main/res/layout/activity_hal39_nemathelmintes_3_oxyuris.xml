@@ -24,19 +24,19 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:background="@drawable/asset_60_nemathel"
-            android:contentDescription="@string/title_filum" />
+            android:contentDescription="@string/content_nemathelminthes" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
             android:background="@drawable/title_nemahelmintes_3_oxyuris"
-            android:contentDescription="@string/content_filum" />
+            android:contentDescription="@string/content_nemathelminthes" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/content_hal39_nemahelmintes_3_oxyuris"
-            android:contentDescription="@string/content_filum" />
+            android:contentDescription="@string/content_nemathelminthes" />
     </LinearLayout>
 </RelativeLayout>

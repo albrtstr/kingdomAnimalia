@@ -47,7 +47,7 @@
                     android:layout_height="95dp"
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/asset_93_enchinodermata_1"
-                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+                    android:contentDescription="@string/enchinodermata"/>
                 <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

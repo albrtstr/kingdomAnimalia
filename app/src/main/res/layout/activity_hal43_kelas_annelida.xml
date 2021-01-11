@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/title_kelas_annelida"
-            android:contentDescription="@string/title_kelas_filum" />
+            android:contentDescription="@string/content_annelida" />
     </LinearLayout>
 
     <LinearLayout
@@ -44,13 +44,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="39dp"
                 android:background="@drawable/asset_67_polycaheta"
-                android:contentDescription="@string/asset_kelas_filum"/>
+                android:contentDescription="@string/content_annelida"/>
             <ImageButton
                 android:id="@+id/button_polycaheta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_polycaheta"
-                android:contentDescription="@string/button_kelas_filum" />
+                android:contentDescription="@string/content_annelida" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,14 +65,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="46dp"
                 android:background="@drawable/asset_68_oligochaeta"
-                android:contentDescription="@string/asset_kelas_filum" />
+                android:contentDescription="@string/content_annelida" />
 
             <ImageButton
                 android:id="@+id/button_oligochaeta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
                 android:background="@drawable/button_oligochaeta"
-                android:contentDescription="@string/button_kelas_filum" />
+                android:contentDescription="@string/content_annelida" />
         </LinearLayout>
 
         <LinearLayout
@@ -86,13 +87,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="54dp"
                 android:background="@drawable/asset_66_hirudinea"
-                android:contentDescription="@string/asset_kelas_filum" />
+                android:contentDescription="@string/content_annelida" />
             <ImageButton
                 android:id="@+id/button_hirudinea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_hirudinea"
-                android:contentDescription="@string/asset_kelas_filum" />
+                android:contentDescription="@string/content_annelida" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

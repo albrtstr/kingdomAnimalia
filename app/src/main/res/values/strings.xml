@@ -56,4 +56,7 @@
     <string name="petunjuk">Petunjuk</string>
     <string name="icon_petunjuk">icon petunjuk</string>
     <string name="gambar">gambar</string>
+    <string name="content_nemathelminthes">content nemathelminthes</string>
+    <string name="content_annelida">content annelida</string>
+    <string name="enchinodermata">enchinodermata</string>
 </resources>

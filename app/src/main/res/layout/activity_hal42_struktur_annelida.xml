@@ -24,12 +24,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="80dp"
             android:background="@drawable/title_struktur_annelida"
-            android:contentDescription="@string/title_filum" />
+            android:contentDescription="@string/content_annelida" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/asset_tubuh_annelida"
-            android:contentDescription="@string/content_filum" />
+            android:contentDescription="@string/content_annelida" />
     </LinearLayout>
 </RelativeLayout>
