@@ -42,45 +42,104 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
-        <ImageButton
-            android:id="@+id/button_kdi"
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_kdi"
-            android:contentDescription="@string/button_menu">
-        </ImageButton>
-        <ImageButton
-            android:id="@+id/button_jelajahfilum"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image_kd"
+                android:paddingRight="20dp"/>
+            <ImageButton
+                android:id="@+id/button_kdi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_kdi"
+                android:contentDescription="@string/button_menu">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_jelajahfilum"
-            android:contentDescription="@string/button_menu">
-        </ImageButton>
-        <ImageButton
-            android:id="@+id/button_soalevaluasi"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imagekd"
+                android:paddingRight="20dp"/>
+            <ImageButton
+                android:id="@+id/button_jelajahfilum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_jelajahfilum"
+                android:contentDescription="@string/button_menu">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_soalevaluasi"
-            android:contentDescription="@string/button_menu">
-        </ImageButton>
-        <ImageButton
-            android:id="@+id/button_tts"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image_soale"
+                android:paddingRight="20dp"/>
+            <ImageButton
+                android:id="@+id/button_soalevaluasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_soalevaluasi"
+                android:contentDescription="@string/button_menu">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_tts"
-            android:contentDescription="@string/button_menu">
-        </ImageButton>
-        <ImageButton
-            android:id="@+id/button_develpoer"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image_tts"
+                android:paddingRight="20dp"
+            <ImageButton
+                android:id="@+id/button_tts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_tts"
+                android:contentDescription="@string/button_menu">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_developer"
-            android:contentDescription="@string/button_menu">
-        </ImageButton>
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image_developer"
+                android:paddingRight="20dp"/>
+            <ImageButton
+                android:id="@+id/button_develpoer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_developer"
+                android:contentDescription="@string/button_menu">
+            </ImageButton>
+        </LinearLayout>
+
     </LinearLayout>
 
 
