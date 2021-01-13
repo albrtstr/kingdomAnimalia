@@ -55,11 +55,11 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/name"
+            android:hint="@string/name"
+            android:textColorHint="@color/white"
             android:textAlignment="center"
             android:background="@drawable/textfield_user"
             android:textColor="@color/white"
-            android:autofillHints="Nama"
             tools:ignore="LabelFor" />
     </LinearLayout>
 

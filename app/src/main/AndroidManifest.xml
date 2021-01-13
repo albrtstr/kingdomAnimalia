@@ -37,7 +37,13 @@
         <activity android:name=".hal4_menu_screen" />
         <activity android:name=".hal3_petunjuk_screen" />
         <activity android:name=".hal2_login_screen" />
-        <activity android:name=".hal1_splash_screen" />
+        <activity android:name=".hal1_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".hal37_nemathelmintes_1_ascaris" />
         <activity android:name=".hal38_nemathelmintes_2_ancylostoma" />
         <activity android:name=".hal39_nemathelmintes_3_oxyuris" />
@@ -87,11 +93,7 @@
         <activity android:name=".hal83_enchinodermata_5_crino2" />
         <activity android:name=".hal84_terima_kasih" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
