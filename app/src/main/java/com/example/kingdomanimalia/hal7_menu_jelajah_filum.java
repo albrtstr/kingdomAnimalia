@@ -7,7 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.example.kingdomanimalia.annelida.hal41_filum_annelida;
+import com.example.kingdomanimalia.arthropoda.hal53_filum_arthropoda;
+import com.example.kingdomanimalia.coelenterata.hal17_filum_coelenterata;
+import com.example.kingdomanimalia.mollusca.hal47_filum_mollusca;
+import com.example.kingdomanimalia.nemathelminthes.hal34_filum_nemathelminthes;
+import com.example.kingdomanimalia.porifera.hal8_filum_porifera;
+
 public class hal7_menu_jelajah_filum extends AppCompatActivity {
+
     ImageButton porifera,coelenterata,nemathelminthes,annelida,mollusca,arthropoda,echinodermata;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +33,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         porifera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal8_filum_porifera.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal8_filum_porifera.class));
             }
         });
 
@@ -33,7 +41,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         coelenterata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal17_filum_coelenterata.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal17_filum_coelenterata.class));
 
             }
         });
@@ -41,7 +49,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         nemathelminthes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal34_filum_nemathelminthes.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal34_filum_nemathelminthes.class));
 
             }
         });
@@ -49,7 +57,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         annelida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal41_filum_annelida.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal41_filum_annelida.class));
 
             }
         });
@@ -57,7 +65,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         mollusca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal47_filum_mollusca.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal47_filum_mollusca.class));
 
             }
         });
@@ -65,7 +73,7 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         arthropoda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal7_menu_jelajah_filum.this,hal53_filum_arthropoda.class));
+                startActivity(new Intent(hal7_menu_jelajah_filum.this, hal53_filum_arthropoda.class));
 
             }
         });

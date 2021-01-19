@@ -30,7 +30,7 @@ public class hal4_menu_screen extends AppCompatActivity {
         jelajahfilum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal4_menu_screen.this,hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal4_menu_screen.this, hal7_menu_jelajah_filum.class));
             }
         });
 
