@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KingdomAnimalia">
+        <activity android:name=".hal12_porifera_tipe_leucon"></activity>
+        <activity android:name=".hal11_porifera_tipe_sycon" />
+        <activity android:name=".hal10_porifera_tipe_ascon" />
+        <activity android:name=".hal20_daur_obelia_bg2" />
+        <activity android:name=".hal32_daur_fasciola" />
+        <activity android:name=".hal31_regenerasi_dugesia" />
         <activity android:name=".hal36_contoh_nemathelminthes" />
         <activity android:name=".hal35_struktur_nemathelminthes" />
         <activity android:name=".hal34_filum_nemathelminthes" />
@@ -37,7 +43,7 @@
         <activity android:name=".hal4_menu_screen" />
         <activity android:name=".hal3_petunjuk_screen" />
         <activity android:name=".hal2_login_screen" />
-        <activity android:name=".hal1_splash_screen" >
+        <activity android:name=".hal1_splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -92,9 +98,7 @@
         <activity android:name=".hal82_enchinodermata_5_crino" />
         <activity android:name=".hal83_enchinodermata_5_crino2" />
         <activity android:name=".hal84_terima_kasih" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
