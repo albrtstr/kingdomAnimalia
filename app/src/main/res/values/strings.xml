@@ -4,6 +4,7 @@
     <string name="text_penutup">Anda telah menyelesaikan penjelajahan pada delapan filum Kingdom Animalia. Sekarang saatnya untuk berenang menuju misi berikutnya.</string>
     <string name="text_filum_porifera">Porifera merupakan hewan invertebrata yang tubuhnya berpori seperti busa atau spons.</string>
     <string name="title_kelas_porifera">title kelas porifera</string>
+    <string name="title_kelas_echinodermata">title kelas echinodermata</string>
     <string name="asset_calcarea">asset calcarea</string>
     <string name="button_calcarea">button calcarea</string>
     <string name="asset_hexatinellide">asset hexatinellide</string>
@@ -42,7 +43,7 @@
     <string name="text_filum_annelida">Annelida (cacing gelang) merupakan hewan triploblastik yang sudah memiliki rongga tubuh sejati (selomata). Annelida memiliki tubuh yang bersegmen.</string>
     <string name="text_filum_mollusca">Mollusca merupakan kelompok hewan bertubuh lunak, dimana seringkali tubuhnya dilindungi oleh cangkang. Hewan ini memiliki tubuh simetri bilateral dan tergolong triploblastik selomata.</string>
     <string name="text_filum_arthropoda">Arthropoda merupakan hewan yang memiliki ciri kaki beruas, berbuku, atau bersegmen. Segmen juga terdapat pada tubuhnya. Tubuh Arthropoda yaitu simetri bilateral dantergolong trploblastik selomata.</string>
-    <string name="text_filum_enchinodermata">Echinodermata adalah kelompok hewan triploblastik selomata yang memiliki ciri khas adanya rangka dalam (endoskeleton) berduri yang menembus kulit.</string>
+    <string name="text_filum_echinodermata">Echinodermata adalah kelompok hewan triploblastik selomata yang memiliki ciri khas adanya rangka dalam (endoskeleton) berduri yang menembus kulit.</string>
     <string name="contoh_nemathelminthes">contoh nemathelminthes</string>
     <string name="kingdom_animalia">Kingdom Animalia</string>
     <string name="menu">Menu</string>
