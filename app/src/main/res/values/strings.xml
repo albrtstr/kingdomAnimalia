@@ -60,4 +60,7 @@
     <string name="content_nemathelminthes">content nemathelminthes</string>
     <string name="content_annelida">content annelida</string>
     <string name="enchinodermata">enchinodermata</string>
+    <string name="no10">Tipe ascon merupakan tipe saluran air yang lubang ostiumnya dihubungkan denaan saluran lurus langsung ke spongosol</string>
+    <string name="no_11">Tipe sycon merupakan tipe saluran air yang lubang ostiumnya dihubungkan denaan saluran bercabang yang masih terhubung langsung dengan spongosol</string>
+    <string name="no_12">Tipe leucon merupakan tipe saluran air yang lubang ostiumnya bercabang-cabang ke rongga yang sudah tidak berhubungan langsung dengan spongosol</string>
 </resources>

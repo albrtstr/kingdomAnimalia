@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
-import com.example.kingdomanimalia.annelida.hal41_filum_annelida;
-import com.example.kingdomanimalia.arthropoda.hal53_filum_arthropoda;
-import com.example.kingdomanimalia.coelenterata.hal17_filum_coelenterata;
-import com.example.kingdomanimalia.mollusca.hal47_filum_mollusca;
-import com.example.kingdomanimalia.nemathelminthes.hal34_filum_nemathelminthes;
-import com.example.kingdomanimalia.porifera.hal8_filum_porifera;
+import com.example.kingdomanimalia.d_annelida.hal41_filum_annelida;
+import com.example.kingdomanimalia.f_arthropoda.hal53_filum_arthropoda;
+import com.example.kingdomanimalia.b_coelenterata.hal17_filum_coelenterata;
+import com.example.kingdomanimalia.e_mollusca.hal47_filum_mollusca;
+import com.example.kingdomanimalia.c_nemathelminthes.hal34_filum_nemathelminthes;
+import com.example.kingdomanimalia.a_porifera.hal8_filum_porifera;
 
 public class hal7_menu_jelajah_filum extends AppCompatActivity {
 

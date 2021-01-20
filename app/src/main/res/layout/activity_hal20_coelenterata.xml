@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".coelenterata.hal20_coelenterata">
+    tools:context=".b_coelenterata.hal20_coelenterata">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
