@@ -25,27 +25,232 @@
     </LinearLayout>
 
     <LinearLayout
+    android:id="@+id/ln2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/ln1"
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="80dp"
+    android:layout_marginEnd="205dp"
+    android:scaleX="1.3"
+    android:scaleY="1.3">
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
-        android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/content_dugesia_1"
-            android:contentDescription="@string/content_filum"/>
-    </LinearLayout>
+        android:background="@drawable/asset_dug_1"
+        android:contentDescription="@string/content_filum"/>
+</LinearLayout>
 
     <LinearLayout
         android:id="@+id/ln3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="305dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_dug_horizontal"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="239dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_knife"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="289dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_dug_vertical"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="235dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_arrow_right"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/ln2"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="35dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_dug_2"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="198dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_dug_vertical"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="165dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_dug_vertical"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="117dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_knife"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="250dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_arrow_left"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_arrow_right"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="310dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/asset_can"
+            android:contentDescription="@string/content_filum"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln14"
+        android:layout_below="@id/ln13"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="35dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/spacemono_bold"
+            android:justificationMode="inter_word"
+            android:padding="5dp"
+            android:text="@string/hal31_dugesia" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="55dp"
         android:scaleX="1.3"
         android:scaleY="1.3">
@@ -54,7 +259,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:background="@drawable/button_arrow_right"
+            android:background="@drawable/button_home"
+            android:contentDescription="@string/icon_petunjuk"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ln7"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="140dp"
+        android:scaleX="1.3"
+        android:scaleY="1.3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_arrow_left"
             android:contentDescription="@string/icon_petunjuk">
         </ImageView>
     </LinearLayout>

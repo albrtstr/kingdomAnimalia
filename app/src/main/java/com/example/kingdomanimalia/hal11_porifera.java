@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class hal20_daur_obelia_bg2 extends AppCompatActivity {
+public class hal11_porifera extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hal20_daur_obelia_bg2);
+        setContentView(R.layout.activity_hal11_porifera);
     }
 }
