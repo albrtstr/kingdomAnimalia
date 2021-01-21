@@ -26,16 +26,11 @@ public class hal42_struktur_annelida extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal42_struktur_annelida.this, hal43_kelas_annelida.class);
                     startActivity(i);
                     finish();
 
-                }
-                else if(x1 > x2){
-                    Intent i = new Intent(hal42_struktur_annelida.this, hal41_filum_annelida.class);
-                    startActivity(i);
-                    finish();
                 }
                 break;
         }

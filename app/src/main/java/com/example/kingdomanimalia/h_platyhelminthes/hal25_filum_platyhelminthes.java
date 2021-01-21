@@ -26,7 +26,7 @@ public class hal25_filum_platyhelminthes extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal25_filum_platyhelminthes.this,hal26_struktur_platyhelminthes.class);
                     startActivity(i);
                     finish();

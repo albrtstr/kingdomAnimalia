@@ -26,7 +26,7 @@ public class hal52_mollusca_3_cephalopoda extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 > x2){
+                if(x1 < x2){
                     Intent i = new Intent(hal52_mollusca_3_cephalopoda.this, hal51_mollusca_2_pelecypoda.class);
                     startActivity(i);
                     finish();

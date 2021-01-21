@@ -26,13 +26,13 @@ public class hal50_mollusca_1_gastropoda extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal50_mollusca_1_gastropoda.this, hal51_mollusca_2_pelecypoda.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal50_mollusca_1_gastropoda.this, hal49_kelas_mollusca.class);
                     startActivity(i);
                     finish();

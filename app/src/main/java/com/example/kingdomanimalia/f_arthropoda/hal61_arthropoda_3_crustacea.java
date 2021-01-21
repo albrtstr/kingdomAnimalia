@@ -26,13 +26,13 @@ public class hal61_arthropoda_3_crustacea extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal61_arthropoda_3_crustacea.this, hal62_struktur_udang.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal61_arthropoda_3_crustacea.this, hal60_arthropoda_2_myriapoda2.class);
                     startActivity(i);
                     finish();

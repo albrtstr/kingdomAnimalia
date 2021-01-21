@@ -25,13 +25,13 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal21_kelas_coelenterata.this,hal22_kelas_coelenterata_1_hydrozoa.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal21_kelas_coelenterata.this,hal20_coelenterata.class);
                     startActivity(i);
                     finish();

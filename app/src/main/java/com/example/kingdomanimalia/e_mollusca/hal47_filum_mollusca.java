@@ -25,7 +25,7 @@ public class hal47_filum_mollusca extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal47_filum_mollusca.this, hal48_struktur_mollusca.class);
                     startActivity(i);
                     finish();

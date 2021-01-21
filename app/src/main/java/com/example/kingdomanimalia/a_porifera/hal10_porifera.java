@@ -25,13 +25,13 @@ public class hal10_porifera extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal10_porifera.this, hal11_porifera.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal10_porifera.this,hal9_struktur_porifera.class);
                     startActivity(i);
                     finish();

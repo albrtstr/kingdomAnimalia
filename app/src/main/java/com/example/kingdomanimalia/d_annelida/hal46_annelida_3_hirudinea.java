@@ -26,7 +26,7 @@ public class hal46_annelida_3_hirudinea extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 > x2){
+                if(x1 < x2){
                     Intent i = new Intent(hal46_annelida_3_hirudinea.this, hal45_annelida_2_oligochaeta.class);
                     startActivity(i);
                     finish();

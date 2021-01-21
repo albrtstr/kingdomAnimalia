@@ -25,7 +25,7 @@ public class hal17_filum_coelenterata extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal17_filum_coelenterata.this,hal18_struktur_coelenterata.class);
                     startActivity(i);
                     finish();

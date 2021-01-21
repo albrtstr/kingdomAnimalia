@@ -8,166 +8,60 @@
     android:background="@drawable/background">
 
     <LinearLayout
-        android:id="@+id/ln1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingTop="20dp">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:src="@drawable/title_daur_fasciola"/>
-
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:padding="20dp"
-            android:columnCount="3"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:gravity="center"
-                    android:id="@+id/ln2"
-                    android:padding="5dp"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/asset_faciola_1"/>
-                <ImageView
-                    android:id="@+id/ln3"
-                    android:layout_below="@id/ln2"
-                    android:padding="12dp"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/asset_faciola_2"/>
-                <ImageView
-                    android:id="@+id/ln4"
-                    android:layout_below="@id/ln3"
-                    android:padding="15dp"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/asset_faciola_3"/>
-            </LinearLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom">
-                <ImageView
-                    android:layout_width="181dp"
-                    android:layout_height="339dp"
-                    android:layout_row="0"
-                    android:layout_column="1"
-                    android:layout_gravity="top"
-                    android:src="@drawable/asset_faciola" />
-            </RelativeLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="338dp"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/ln5"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:src="@drawable/asset_faciola_4" />
-
-                <ImageView
-                    android:id="@+id/ln6"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:layout_below="@id/ln5"
-                    android:padding="10dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/asset_faciola_5" />
-
-                <ImageView
-                    android:id="@+id/ln7"
-                    android:layout_width="80dp"
-                    android:layout_height="50dp"
-                    android:layout_below="@id/ln6"
-                    android:padding="5dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/asset_faciola_6" />
-
-                <ImageView
-                    android:id="@+id/ln8"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:layout_below="@id/ln7"
-                    android:padding="10dp"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/asset_faciola_7" />
-
-            </LinearLayout>
-        </GridLayout>
-
-        <RelativeLayout
-            android:layout_width="320dp"
-            android:layout_height="120dp"
-            android:layout_gravity="bottom"
-            android:paddingTop="20dp">>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/spacemono_bold"
-                android:justificationMode="inter_word"
-                android:padding="5dp"
-                android:text="@string/hal32_fasciola" />
-        </RelativeLayout>
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:id="@+id/ln12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ln1"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="55dp"
-        android:scaleX="1.3"
-        android:scaleY="1.3">
+        android:id="@+id/ln1"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
+            android:background="@drawable/title_daur_fasciola"
+            android:contentDescription="@string/daur_hidup_fasciola_hepatica" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln2"
+        android:layout_below="@id/ln1"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/title_daur_obelia"
+            android:contentDescription="@string/daur_hidup_fasciola_hepatica" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:scaleX="1"
+        android:scaleY="1">
+
+        <ImageView
+            android:id="@+id/btnback"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_arrow_left"
+            android:contentDescription="@string/icon_petunjuk"></ImageView>
+        <ImageView
+            android:id="@+id/btnhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:background="@drawable/button_home"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/ln13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ln1"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="140dp"
-        android:scaleX="1.3"
-        android:scaleY="1.3">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/button_arrow_left"
-            android:contentDescription="@string/icon_petunjuk">
-        </ImageView>
     </LinearLayout>
 </RelativeLayout>

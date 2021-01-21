@@ -25,13 +25,13 @@ public class hal14_kelas_porifera_1_calcarea extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal14_kelas_porifera_1_calcarea.this, hal15_kelas_porifera_2_hexatinellide.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal14_kelas_porifera_1_calcarea.this, hal13_kelas_porifera.class);
                     startActivity(i);
                     finish();
