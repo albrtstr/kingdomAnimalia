@@ -26,13 +26,13 @@ public class hal29_kelas_platyhelminthes_2_trematoda extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal29_kelas_platyhelminthes_2_trematoda.this,hal30_kelas_platyhelminthes_3_cestoda.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal29_kelas_platyhelminthes_2_trematoda.this,hal28_kelas_platyhelminthes_1_turbellaria.class);
                     startActivity(i);
                     finish();

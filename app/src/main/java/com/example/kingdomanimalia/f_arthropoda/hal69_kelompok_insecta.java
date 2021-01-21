@@ -26,13 +26,12 @@ public class hal69_kelompok_insecta extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal69_kelompok_insecta.this, hal70_kelompok_eksopterigota.class);
                     startActivity(i);
                     finish();
-
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal69_kelompok_insecta.this, hal68_daur_insecta2.class);
                     startActivity(i);
                     finish();

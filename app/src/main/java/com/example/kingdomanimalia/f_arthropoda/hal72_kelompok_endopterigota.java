@@ -25,13 +25,13 @@ public class hal72_kelompok_endopterigota extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal72_kelompok_endopterigota.this, hal73_kelompok_endopterigota2.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal72_kelompok_endopterigota.this, hal71_kelompok_eksopterigota2.class);
                     startActivity(i);
                     finish();

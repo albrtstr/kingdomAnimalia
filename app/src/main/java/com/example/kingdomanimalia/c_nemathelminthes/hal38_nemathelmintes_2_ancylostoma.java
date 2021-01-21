@@ -26,13 +26,13 @@ public class hal38_nemathelmintes_2_ancylostoma extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal38_nemathelmintes_2_ancylostoma.this, hal39_nemathelmintes_3_oxyuris.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal38_nemathelmintes_2_ancylostoma.this, hal37_nemathelmintes_1_ascaris.class);
                     startActivity(i);
                     finish();

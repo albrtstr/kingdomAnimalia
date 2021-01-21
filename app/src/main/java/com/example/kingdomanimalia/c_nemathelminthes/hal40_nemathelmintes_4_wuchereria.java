@@ -25,7 +25,7 @@ public class hal40_nemathelmintes_4_wuchereria extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 > x2){
+                if(x1 < x2){
                     Intent i = new Intent(hal40_nemathelmintes_4_wuchereria.this, hal39_nemathelmintes_3_oxyuris.class);
                     startActivity(i);
                     finish();

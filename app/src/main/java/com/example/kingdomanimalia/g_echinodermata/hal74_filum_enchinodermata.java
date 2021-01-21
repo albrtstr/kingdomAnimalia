@@ -25,7 +25,7 @@ public class hal74_filum_enchinodermata extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal74_filum_enchinodermata.this, hal75_struktur_enchinodermata.class);
                     startActivity(i);
                     finish();

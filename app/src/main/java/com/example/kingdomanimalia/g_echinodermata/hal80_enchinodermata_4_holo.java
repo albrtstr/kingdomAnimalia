@@ -25,13 +25,13 @@ public class hal80_enchinodermata_4_holo extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal80_enchinodermata_4_holo.this, hal81_enchinodermata_4_holo2.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal80_enchinodermata_4_holo.this, hal79_enchinodermata_3_enchinoidea.class);
                     startActivity(i);
                     finish();

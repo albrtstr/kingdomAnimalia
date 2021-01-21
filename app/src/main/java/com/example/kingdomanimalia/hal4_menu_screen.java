@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.example.kingdomanimalia.a_porifera.hal10_porifera;
+import com.example.kingdomanimalia.a_porifera.hal8_filum_porifera;
+
 public class hal4_menu_screen extends AppCompatActivity {
     ImageButton kd,jelajahfilum,soalevaluasi,tts,profilpengembang;
     @Override
@@ -30,7 +33,7 @@ public class hal4_menu_screen extends AppCompatActivity {
         jelajahfilum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal4_menu_screen.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal4_menu_screen.this, hal10_porifera.class));
             }
         });
 

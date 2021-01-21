@@ -25,14 +25,8 @@ public class hal9_struktur_porifera extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal9_struktur_porifera.this, hal10_porifera.class);
-                    startActivity(i);
-                    finish();
-
-                }
-                else if(x1 > x2){
-                    Intent i = new Intent(hal9_struktur_porifera.this, hal8_filum_porifera.class);
                     startActivity(i);
                     finish();
                 }

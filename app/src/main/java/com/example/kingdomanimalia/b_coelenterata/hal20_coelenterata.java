@@ -25,13 +25,13 @@ public class hal20_coelenterata extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal20_coelenterata.this, hal21_kelas_coelenterata.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal20_coelenterata.this,hal19_coelenterata.class);
                     startActivity(i);
                     finish();

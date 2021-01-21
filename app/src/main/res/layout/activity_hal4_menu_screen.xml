@@ -53,14 +53,14 @@
                 android:layout_height="wrap_content"
                 android:src="@drawable/image_kd"
                 android:paddingRight="20dp"/>
+
             <ImageButton
                 android:id="@+id/button_kdi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/button_kdi"
-                android:contentDescription="@string/button_menu">
-            </ImageButton>
+                android:contentDescription="@string/button_menu"></ImageButton>
         </LinearLayout>
 
         <LinearLayout

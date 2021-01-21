@@ -25,13 +25,13 @@ public class hal23_kelas_coelenterata_2_scypozoa extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal23_kelas_coelenterata_2_scypozoa.this, hal24_kelas_coelenterata_3_anthozoa.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal23_kelas_coelenterata_2_scypozoa.this, hal22_kelas_coelenterata_1_hydrozoa.class);
                     startActivity(i);
                     finish();

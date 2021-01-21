@@ -26,13 +26,13 @@ public class hal28_kelas_platyhelminthes_1_turbellaria extends AppCompatActivity
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal28_kelas_platyhelminthes_1_turbellaria.this,hal29_kelas_platyhelminthes_2_trematoda.class);
                     startActivity(i);
                     finish();
 
                 }
-                else if(x1 > x2){
+                else if(x1 < x2){
                     Intent i = new Intent(hal28_kelas_platyhelminthes_1_turbellaria.this,hal27_kelas_platyhelminthes.class);
                     startActivity(i);
                     finish();

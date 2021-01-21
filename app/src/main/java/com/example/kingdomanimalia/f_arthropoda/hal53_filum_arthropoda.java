@@ -25,7 +25,7 @@ public class hal53_filum_arthropoda extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(hal53_filum_arthropoda.this, hal54_struktur_arthropoda.class);
                     startActivity(i);
                     finish();
