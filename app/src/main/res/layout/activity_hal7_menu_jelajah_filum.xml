@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="15dp"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
@@ -48,12 +48,12 @@
                 android:background="@drawable/button_porifera"
                 android:contentDescription="button porifera">
             </ImageButton>
+
             <ImageButton
                 android:id="@+id/imagebutton_porifera"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/image_porifera">
-            </ImageButton>
+                android:layout_height="67dp"
+                android:background="@drawable/image_porifera"></ImageButton>
         </LinearLayout>
 
         <LinearLayout
@@ -61,12 +61,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal">
+
             <ImageButton
                 android:id="@+id/imagebutton_coelenterata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/image_coelenterata">
-            </ImageButton>
+                android:background="@drawable/image_coelenterata"></ImageButton>
             <ImageButton
                 android:id="@+id/button_coelenterata"
                 android:layout_width="wrap_content"
@@ -82,17 +82,17 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
             <ImageButton
-                android:id="@+id/button_nemathelminthes"
+                android:id="@+id/button_platyhelmintes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/button_nemathelminthes">
+                android:background="@drawable/button_platyhelminthes">
             </ImageButton>
             <ImageButton
-                android:id="@+id/imagebutton_nemathelminthes"
+                android:id="@+id/imagebutton_platyhelminthes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/image_nemathelminthes">
+                android:background="@drawable/image_platyhelminthes">
             </ImageButton>
         </LinearLayout>
 
@@ -102,11 +102,25 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
             <ImageButton
-                android:id="@+id/imagebutton_annelida"
+                android:id="@+id/imagebutton_nemathelminthes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/image_annelida">
+                android:background="@drawable/image_nemathelminthes">
             </ImageButton>
+            <ImageButton
+                android:id="@+id/button_nemathelmintes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_nemathelminthes">
+            </ImageButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
             <ImageButton
                 android:id="@+id/button_annelida"
                 android:layout_width="wrap_content"
@@ -114,6 +128,12 @@
                 android:layout_gravity="center"
                 android:background="@drawable/button_annelida">
             </ImageButton>
+            <ImageButton
+                android:id="@+id/imagebutton_annelida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_annelida">
+            </ImageButton>
         </LinearLayout>
 
         <LinearLayout
@@ -121,6 +141,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imagebutton_mollusca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_mollusca">
+            </ImageButton>
             <ImageButton
                 android:id="@+id/button_mollusca"
                 android:layout_width="wrap_content"
@@ -128,12 +154,6 @@
                 android:layout_gravity="center"
                 android:background="@drawable/button_mollusca">
             </ImageButton>
-            <ImageButton
-                android:id="@+id/imagebutton_mollusca"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/image_mollusca">
-            </ImageButton>
         </LinearLayout>
 
         <LinearLayout
@@ -141,12 +161,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal">
-            <ImageButton
-                android:id="@+id/imagebutton_arthropoda"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/image_arthropoda">
-            </ImageButton>
             <ImageButton
                 android:id="@+id/button_arthropoda"
                 android:layout_width="wrap_content"
@@ -154,6 +168,12 @@
                 android:layout_gravity="center"
                 android:background="@drawable/button_arthropoda">
             </ImageButton>
+            <ImageButton
+                android:id="@+id/imagebutton_arthropoda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_arthropoda">
+            </ImageButton>
         </LinearLayout>
 
         <LinearLayout
@@ -162,17 +182,17 @@
             android:layout_gravity="center"
             android:orientation="horizontal">
             <ImageButton
+                android:id="@+id/imagebutton_echinoderamta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_echinodermata">
+            </ImageButton>
+            <ImageButton
                 android:id="@+id/button_echinodermata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/button_echinodermata">
-            </ImageButton>
-            <ImageButton
-                android:id="@+id/imagebutton_echinodermata"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/image_echinodermata">
             </ImageButton>
         </LinearLayout>
     </LinearLayout>
