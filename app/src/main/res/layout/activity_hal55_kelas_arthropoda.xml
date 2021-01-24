@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:theme="@style/Theme.AppCompat.NoActionBar"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
 
     <LinearLayout
         android:id="@+id/ln1"
@@ -14,10 +14,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:gravity="center">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/title_kelas_enchinodermata"
+            android:background="@drawable/title_kelas_arthropoda"
             android:contentDescription="@string/title_kelas_filum" />
     </LinearLayout>
 
@@ -31,10 +32,12 @@
         android:layout_marginBottom="0dp"
         android:gravity="center"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -46,14 +49,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="95dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/asset_93_enchinodermata_1"
-                    android:contentDescription="@string/enchinodermata"/>
+                    android:background="@drawable/asset_75_arachnida"
+                    android:contentDescription="@string/enchinodermata" />
+
                 <ImageButton
+                    android:id="@+id/b1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_asteroidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:background="@drawable/button_arachnida"
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
 
             <LinearLayout
@@ -61,70 +65,28 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                 <ImageButton
+                <ImageButton
                     android:layout_width="match_parent"
                     android:layout_height="98dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/asset_94_enchinodermata_2"
+                    android:background="@drawable/asset_76_myriapoda"
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
                 <ImageButton
+                    android:id="@+id/b2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_ophiuroidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:background="@drawable/button_myriapoda"
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
-        android:orientation="horizontal">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="40dp"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:layout_width="126dp"
-                android:layout_height="116dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/asset_96_enchinodermata_3"
-                android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_echinoidea"
-                android:contentDescription="@string/contoh_nemathelminthes">
-            </ImageButton>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="116dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/asset_97_enchinodermata_4"
-                android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/button_crinoidea"
-                android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
-        </LinearLayout>
-    </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -132,22 +94,45 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:layout_width="162dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="126dp"
+                    android:layout_height="116dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/asset_95_enchinodermata_5"
+                    android:background="@drawable/asset_77_crustacea"
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
                 <ImageButton
+                    android:id="@+id/b3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_holothuroidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:background="@drawable/button_crustacea"
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="116dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/asset_78_insecta"
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
+                <ImageButton
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_insecta"
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+            </LinearLayout>
         </LinearLayout>
+
+
+
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/ln3"
         android:layout_width="wrap_content"
@@ -166,6 +151,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_arrow_left"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
+
         <ImageView
             android:id="@+id/btnhome"
             android:layout_width="wrap_content"

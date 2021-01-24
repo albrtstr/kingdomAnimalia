@@ -3,10 +3,15 @@ package com.example.kingdomanimalia.e_mollusca;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.d_annelida.hal41_filum_annelida;
+import com.example.kingdomanimalia.d_annelida.hal43_kelas_annelida;
+import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal48_struktur_mollusca extends AppCompatActivity {
 
@@ -15,6 +20,23 @@ public class hal48_struktur_mollusca extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal48_struktur_mollusca);
+
+        ImageView home = findViewById(R.id.btnhome);
+        ImageView back = findViewById(R.id.btnback);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal48_struktur_mollusca.this, hal7_menu_jelajah_filum.class));
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal48_struktur_mollusca.this, hal47_filum_mollusca.class));
+                finish();
+            }
+        });
     }
 
     public boolean onTouchEvent(MotionEvent touchEvent) {

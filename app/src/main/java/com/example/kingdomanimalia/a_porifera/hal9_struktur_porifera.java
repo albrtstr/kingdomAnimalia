@@ -5,8 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal9_struktur_porifera extends AppCompatActivity {
     float x1,x2,y1,y2;
@@ -14,6 +19,26 @@ public class hal9_struktur_porifera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal9_struktur_porifera);
+
+        ImageView home = findViewById(R.id.btnhome);
+        ImageView back = findViewById(R.id.btnback);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal9_struktur_porifera.this, hal7_menu_jelajah_filum.class));
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal9_struktur_porifera.this, hal8_filum_porifera.class));
+                finish();
+            }
+        });
+
+
+
     }
     public boolean onTouchEvent(MotionEvent touchEvent) {
 

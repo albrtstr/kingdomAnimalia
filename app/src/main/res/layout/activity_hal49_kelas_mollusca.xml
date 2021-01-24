@@ -34,6 +34,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/gastro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -45,6 +46,7 @@
                 android:layout_marginEnd="39dp"
                 android:background="@drawable/asset_71_gastropoda"
                 android:contentDescription="@string/asset_kelas_filum" />
+
             <ImageButton
                 android:id="@+id/button_mollusca_1_gastropoda"
                 android:layout_width="wrap_content"

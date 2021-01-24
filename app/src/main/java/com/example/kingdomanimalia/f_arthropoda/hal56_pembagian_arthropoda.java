@@ -3,10 +3,13 @@ package com.example.kingdomanimalia.f_arthropoda;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal56_pembagian_arthropoda extends AppCompatActivity {
     float x1,x2,y1,y2;
@@ -14,6 +17,23 @@ public class hal56_pembagian_arthropoda extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal56_pembagian_arthropoda);
+
+        ImageView home = findViewById(R.id.btnhome);
+        ImageView back = findViewById(R.id.btnback);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal56_pembagian_arthropoda.this, hal7_menu_jelajah_filum.class));
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal56_pembagian_arthropoda.this, hal53_filum_arthropoda.class));
+                finish();
+            }
+        });
     }
 
     public boolean onTouchEvent(MotionEvent touchEvent) {

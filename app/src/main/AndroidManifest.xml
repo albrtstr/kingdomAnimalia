@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kingdomanimalia">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -14,6 +15,12 @@
         <activity android:name=".c_nemathelminthes.hal35_struktur_nemathelminthes" />
         <activity android:name=".c_nemathelminthes.hal34_filum_nemathelminthes" />
         <activity android:name=".h_platyhelminthes.hal33_daurfasciola_2" />
+        <activity android:name=".hal32_daur_fasciola">
+
+        </activity>
+        <activity android:name=".hal31_regenerasi_dugesia">
+
+        </activity>
         <activity android:name=".h_platyhelminthes.hal30_kelas_platyhelminthes_3_cestoda" />
         <activity android:name=".h_platyhelminthes.hal29_kelas_platyhelminthes_2_trematoda" />
         <activity android:name=".h_platyhelminthes.hal28_kelas_platyhelminthes_1_turbellaria" />
@@ -24,6 +31,10 @@
         <activity android:name=".b_coelenterata.hal23_kelas_coelenterata_2_scypozoa" />
         <activity android:name=".b_coelenterata.hal22_kelas_coelenterata_1_hydrozoa" />
         <activity android:name=".b_coelenterata.hal21_kelas_coelenterata" />
+        <activity android:name=".b_coelenterata.hal20_coelenterata"/>
+        <activity android:name=".b_coelenterata.hal19_coelenterata">
+
+        </activity>
         <activity android:name=".b_coelenterata.hal18_struktur_coelenterata" />
         <activity android:name=".b_coelenterata.hal17_filum_coelenterata" />
         <activity android:name=".a_porifera.hal16_kelas_porifera_3_demospongiae" />
@@ -31,7 +42,9 @@
         <activity android:name=".a_porifera.hal14_kelas_porifera_1_calcarea" />
         <activity android:name=".a_porifera.hal13_kelas_porifera" />
         <activity android:name=".a_porifera.hal10_porifera"/>
-        <activity android:name=".a_porifera.hal11_porifera"/>
+        <activity android:name=".a_porifera.hal11_porifera">
+
+        </activity>
         <activity android:name=".a_porifera.hal12_porifera"/>
         <activity android:name=".a_porifera.hal9_struktur_porifera" />
         <activity android:name=".a_porifera.hal8_filum_porifera" />
@@ -44,7 +57,6 @@
         <activity android:name=".hal1_splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -95,6 +107,9 @@
         <activity android:name=".g_echinodermata.hal81_enchinodermata_4_holo2" />
         <activity android:name=".g_echinodermata.hal82_enchinodermata_5_crino" />
         <activity android:name=".g_echinodermata.hal83_enchinodermata_5_crino2" />
+        <activity android:name=".hal86_tts">
+
+        </activity>
         <activity android:name=".hal84_terima_kasih" />
         <activity android:name=".MainActivity" />
     </application>

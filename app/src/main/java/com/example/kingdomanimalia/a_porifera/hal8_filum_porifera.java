@@ -28,6 +28,7 @@ public class hal8_filum_porifera extends AppCompatActivity {
                 if(x1 > x2){
                     Intent i = new Intent(hal8_filum_porifera.this, hal9_struktur_porifera.class);
                     startActivity(i);
+                    overridePendingTransition(R.anim.slide_right,R.anim.slide_right_out);
                     finish();
                 }
                 break;

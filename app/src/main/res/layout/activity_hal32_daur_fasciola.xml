@@ -8,35 +8,44 @@
     android:background="@drawable/background">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/ln1"
-        android:orientation="horizontal"
-        android:layout_marginTop="80dp"
-        android:layout_centerHorizontal="true"
-        android:gravity="center">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/title_daur_fasciola"
-            android:contentDescription="@string/daur_hidup_fasciola_hepatica" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ln2"
-        android:layout_below="@id/ln1"
         android:orientation="vertical"
-        android:layout_marginTop="80dp"
-        android:layout_centerHorizontal="true">
+        android:paddingTop="20dp">
+
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/title_daur_obelia"
-            android:contentDescription="@string/daur_hidup_fasciola_hepatica" />
+            android:padding="10dp"
+            android:src="@drawable/title_daur_fasciola"/>
+
+        <com.example.kingdomanimalia.puzzle.LangkahPuzzle1
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid1"
+            >
+
+
+        </com.example.kingdomanimalia.puzzle.LangkahPuzzle1>
+
+        <RelativeLayout
+            android:layout_width="320dp"
+            android:layout_height="120dp"
+            android:layout_gravity="bottom"
+            android:paddingTop="20dp">>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/spacemono_bold"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/hal32_fasciola" />
+        </RelativeLayout>
     </LinearLayout>
+
+
 
     <LinearLayout
         android:id="@+id/ln3"

@@ -5,15 +5,83 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal10_porifera extends AppCompatActivity {
     float x1,x2,y1,y2;
+
+    int flag;
+    ImageView siram,air;
+    Animation animTranslate;
+    Animation animTranslateAir ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal10_porifera);
+
+
+        animTranslate  = AnimationUtils.loadAnimation(this, R.anim.anim);
+        animTranslateAir = AnimationUtils.loadAnimation(this, R.anim.translate);
+
+
+        ImageView home = findViewById(R.id.btnhome);
+        ImageView back = findViewById(R.id.btnback);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal10_porifera.this, hal7_menu_jelajah_filum.class));
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal10_porifera.this, hal8_filum_porifera.class));
+                finish();
+            }
+        });
+
+        //animasi
+        siram = findViewById(R.id.sirami);
+        air = findViewById(R.id.air_10);
+
+        flag = 0;
+        siram.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                air.setVisibility(View.INVISIBLE);
+                animasi(flag);
+            }
+        });
+    }
+    public void animasi(int a) {
+        switch (a) {
+            case 0:
+                siram.animate().translationY(-300);
+                siram.animate().setDuration(2000);
+                flag = 1;
+                break;
+            case 1:
+                siram.startAnimation(animTranslate);
+                air.setVisibility(View.VISIBLE);
+                flag = 2;
+            case 2:
+                air.startAnimation(animTranslateAir);
+                flag = 3;
+                break;
+
+            case 3:
+                siram.animate().translationY(0);
+                siram.animate().setDuration(2000);
+                flag = 0;
+                break;
+        }
     }
     public boolean onTouchEvent(MotionEvent touchEvent) {
 

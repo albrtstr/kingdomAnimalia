@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal13_kelas_porifera extends AppCompatActivity {
     float x1,x2,y1,y2;
@@ -14,6 +17,49 @@ public class hal13_kelas_porifera extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hal13_kelas_porifera);
+
+        ImageView home = findViewById(R.id.btnhome);
+        ImageView back = findViewById(R.id.btnback);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal13_kelas_porifera.this, hal7_menu_jelajah_filum.class));
+                finish();
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal13_kelas_porifera.this, hal8_filum_porifera.class));
+                finish();
+            }
+        });
+
+
+        ImageView calcarea = findViewById(R.id.button1_porifera);
+        ImageView hexa = findViewById(R.id.button2_porifera);
+        ImageView demos = findViewById(R.id.button3_porifera);
+
+        calcarea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal13_kelas_porifera.this,hal14_kelas_porifera_1_calcarea.class));
+            }
+        });
+
+        hexa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal13_kelas_porifera.this,hal15_kelas_porifera_2_hexatinellide.class));
+            }
+        });
+
+        demos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal13_kelas_porifera.this,hal16_kelas_porifera_3_demospongiae.class));
+            }
+        });
     }
     public boolean onTouchEvent(MotionEvent touchEvent) {
 
@@ -25,13 +71,14 @@ public class hal13_kelas_porifera extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 > x2){
-                    Intent i = new Intent(hal13_kelas_porifera.this,hal14_kelas_porifera_1_calcarea.class);
-                    startActivity(i);
-                    finish();
-
-                }
-                else if(x1 < x2){
+//                if(x1 > x2){
+//                    Intent i = new Intent(hal13_kelas_porifera.this,hal14_kelas_porifera_1_calcarea.class);
+//                    startActivity(i);
+//                    finish();
+//
+//                }
+//                else
+                if(x1 < x2){
                     Intent i = new Intent(hal13_kelas_porifera.this,hal12_porifera.class);
                     startActivity(i);
                     finish();

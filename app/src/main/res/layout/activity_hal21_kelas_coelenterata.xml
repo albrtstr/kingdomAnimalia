@@ -65,10 +65,11 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/asset_scypozoa"
                 android:contentDescription="@string/asset_kelas_filum" />
+
             <ImageButton
                 android:id="@+id/button2_porifera"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
                 android:background="@drawable/button_scypozoa"
                 android:contentDescription="@string/button_kelas_filum" />
         </LinearLayout>

@@ -50,6 +50,7 @@
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
 
                 <ImageButton
+                    android:id="@+id/asteroid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_asteroidea"
@@ -67,12 +68,13 @@
                     android:background="@drawable/asset_94_enchinodermata_2"
                     android:contentDescription="@string/contoh_nemathelminthes">
                 </ImageButton>
+
                 <ImageButton
+                    android:id="@+id/ophi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_ophiuroidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
         </LinearLayout>
 
@@ -92,12 +94,13 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/asset_96_enchinodermata_3"
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
                 <ImageButton
+                    android:id="@+id/enchi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_echinoidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
 
             <LinearLayout
@@ -111,12 +114,13 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/asset_97_enchinodermata_4"
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
                 <ImageButton
+                    android:id="@+id/crino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_crinoidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
         </LinearLayout>
 
@@ -136,12 +140,13 @@
                     android:layout_marginBottom="20dp"
                     android:background="@drawable/asset_95_enchinodermata_5"
                     android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
+
                 <ImageButton
+                    android:id="@+id/holo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/button_holothuroidea"
-                    android:contentDescription="@string/contoh_nemathelminthes">
-                </ImageButton>
+                    android:contentDescription="@string/contoh_nemathelminthes"></ImageButton>
             </LinearLayout>
         </LinearLayout>
 

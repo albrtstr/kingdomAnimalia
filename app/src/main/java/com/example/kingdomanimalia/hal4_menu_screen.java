@@ -3,6 +3,7 @@ package com.example.kingdomanimalia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -33,7 +34,7 @@ public class hal4_menu_screen extends AppCompatActivity {
         jelajahfilum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal4_menu_screen.this, hal10_porifera.class));
+                startActivity(new Intent(hal4_menu_screen.this, hal7_menu_jelajah_filum.class));
             }
         });
 
@@ -41,13 +42,15 @@ public class hal4_menu_screen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                Intent implicit = new Intent(Intent.ACTION_VIEW, Uri.parse("https://quizizz.com/admin/quiz/5fd8c1b1b8a206001b0a1ded"));
+                startActivity(implicit);
             }
         });
 
         tts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                startActivity(new Intent(hal4_menu_screen.this,hal86_tts.class));
             }
         });
 
