@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import com.example.kingdomanimalia.R;
 import com.example.kingdomanimalia.hal31_regenerasi_dugesia;
 import com.example.kingdomanimalia.hal32_daur_fasciola;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal33_daurfasciola_2 extends AppCompatActivity {
@@ -25,14 +26,14 @@ public class hal33_daurfasciola_2 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal33_daurfasciola_2.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal33_daurfasciola_2.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal33_daurfasciola_2.this, hal25_filum_platyhelminthes.class));
+                startActivity(new Intent(hal33_daurfasciola_2.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

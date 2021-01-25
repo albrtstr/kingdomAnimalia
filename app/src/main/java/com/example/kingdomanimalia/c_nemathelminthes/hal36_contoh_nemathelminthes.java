@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import com.example.kingdomanimalia.R;
 import com.example.kingdomanimalia.b_coelenterata.hal17_filum_coelenterata;
 import com.example.kingdomanimalia.b_coelenterata.hal18_struktur_coelenterata;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal36_contoh_nemathelminthes extends AppCompatActivity {
@@ -28,14 +29,14 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal34_filum_nemathelminthes.class));
+                startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

@@ -29,14 +29,14 @@ public class hal31_regenerasi_dugesia extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal31_regenerasi_dugesia.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal31_regenerasi_dugesia.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal31_regenerasi_dugesia.this, hal25_filum_platyhelminthes.class));
+                startActivity(new Intent(hal31_regenerasi_dugesia.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

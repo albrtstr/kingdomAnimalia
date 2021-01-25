@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 import com.example.kingdomanimalia.a_porifera.hal10_porifera;
 import com.example.kingdomanimalia.a_porifera.hal8_filum_porifera;
@@ -58,6 +59,16 @@ public class hal4_menu_screen extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(hal4_menu_screen.this,hal89_profil_pengembang.class));
+            }
+        });
+
+        ImageView help = findViewById(R.id.btnHelp);
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal4_menu_screen.this,hal3_petunjuk_screen.class));
+
+
             }
         });
     }

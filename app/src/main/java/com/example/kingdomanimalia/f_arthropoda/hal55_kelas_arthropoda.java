@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal55_kelas_arthropoda extends AppCompatActivity {
@@ -24,14 +25,14 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal55_kelas_arthropoda.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal55_kelas_arthropoda.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal55_kelas_arthropoda.this, hal53_filum_arthropoda.class));
+                startActivity(new Intent(hal55_kelas_arthropoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal13_kelas_porifera extends AppCompatActivity {
@@ -23,14 +24,14 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal13_kelas_porifera.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal13_kelas_porifera.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal13_kelas_porifera.this, hal8_filum_porifera.class));
+                startActivity(new Intent(hal13_kelas_porifera.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

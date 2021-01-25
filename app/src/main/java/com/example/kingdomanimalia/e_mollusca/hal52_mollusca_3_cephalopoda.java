@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.a_porifera.hal14_kelas_porifera_1_calcarea;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal52_mollusca_3_cephalopoda extends AppCompatActivity {
@@ -23,14 +25,24 @@ public class hal52_mollusca_3_cephalopoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal52_mollusca_3_cephalopoda.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal52_mollusca_3_cephalopoda.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal52_mollusca_3_cephalopoda.this, hal47_filum_mollusca.class));
+                startActivity(new Intent(hal52_mollusca_3_cephalopoda.this, hal49_kelas_mollusca.class));
+                finish();
+            }
+        });
+
+
+        ImageView menu = findViewById(R.id.btnmenu);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal52_mollusca_3_cephalopoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

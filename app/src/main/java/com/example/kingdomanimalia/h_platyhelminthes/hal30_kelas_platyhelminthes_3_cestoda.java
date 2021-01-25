@@ -9,7 +9,9 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.a_porifera.hal14_kelas_porifera_1_calcarea;
 import com.example.kingdomanimalia.hal31_regenerasi_dugesia;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal30_kelas_platyhelminthes_3_cestoda extends AppCompatActivity {
@@ -24,7 +26,7 @@ public class hal30_kelas_platyhelminthes_3_cestoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal30_kelas_platyhelminthes_3_cestoda.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal30_kelas_platyhelminthes_3_cestoda.this, hal4_menu_screen.class));
                 finish();
             }
         });
@@ -32,6 +34,16 @@ public class hal30_kelas_platyhelminthes_3_cestoda extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(hal30_kelas_platyhelminthes_3_cestoda.this, hal27_kelas_platyhelminthes.class));
+                finish();
+            }
+        });
+
+
+        ImageView menu = findViewById(R.id.btnmenu);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal30_kelas_platyhelminthes_3_cestoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

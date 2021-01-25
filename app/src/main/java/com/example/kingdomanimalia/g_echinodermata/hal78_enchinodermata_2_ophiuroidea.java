@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.a_porifera.hal14_kelas_porifera_1_calcarea;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal78_enchinodermata_2_ophiuroidea extends AppCompatActivity {
@@ -23,7 +25,7 @@ public class hal78_enchinodermata_2_ophiuroidea extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal78_enchinodermata_2_ophiuroidea.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal78_enchinodermata_2_ophiuroidea.this, hal4_menu_screen.class));
                 finish();
             }
         });
@@ -31,6 +33,15 @@ public class hal78_enchinodermata_2_ophiuroidea extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(hal78_enchinodermata_2_ophiuroidea.this, hal76_kelas_enchinodermata.class));
+                finish();
+            }
+        });
+
+        ImageView menu = findViewById(R.id.btnmenu);
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal78_enchinodermata_2_ophiuroidea.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

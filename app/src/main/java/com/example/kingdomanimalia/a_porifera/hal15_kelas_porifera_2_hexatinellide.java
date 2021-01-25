@@ -22,14 +22,24 @@ public class hal15_kelas_porifera_2_hexatinellide extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal14_kelas_porifera_1_calcarea.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal8_filum_porifera.class));
+                startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal13_kelas_porifera.class));
+                finish();
+            }
+        });
+
+        ImageView menu = findViewById(R.id.btnmenu);
+
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

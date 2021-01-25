@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kingdomanimalia.R;
 import com.example.kingdomanimalia.c_nemathelminthes.hal34_filum_nemathelminthes;
 import com.example.kingdomanimalia.c_nemathelminthes.hal36_contoh_nemathelminthes;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal42_struktur_annelida extends AppCompatActivity {
@@ -25,14 +26,14 @@ public class hal42_struktur_annelida extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal42_struktur_annelida.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal42_struktur_annelida.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal42_struktur_annelida.this, hal41_filum_annelida.class));
+                startActivity(new Intent(hal42_struktur_annelida.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

@@ -9,8 +9,10 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal10_porifera extends AppCompatActivity {
@@ -29,20 +31,20 @@ public class hal10_porifera extends AppCompatActivity {
         animTranslate  = AnimationUtils.loadAnimation(this, R.anim.anim);
         animTranslateAir = AnimationUtils.loadAnimation(this, R.anim.translate);
 
-
+        Toast.makeText(this, "Ketuk gambar alat penyiram 1 kali", Toast.LENGTH_SHORT).show();
         ImageView home = findViewById(R.id.btnhome);
         ImageView back = findViewById(R.id.btnback);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal10_porifera.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal10_porifera.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal10_porifera.this, hal8_filum_porifera.class));
+                startActivity(new Intent(hal10_porifera.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });
@@ -66,10 +68,13 @@ public class hal10_porifera extends AppCompatActivity {
                 siram.animate().translationY(-300);
                 siram.animate().setDuration(2000);
                 flag = 1;
+                Toast.makeText(this, "Ketuk kembali alat penyiram", Toast.LENGTH_SHORT).show();
                 break;
             case 1:
                 siram.startAnimation(animTranslate);
                 air.setVisibility(View.VISIBLE);
+
+                Toast.makeText(this, "Alat penyiram mengeluarkan air, masuk melaui dinding, dan porifera mengeluarkan air dari dalam dirinya.", Toast.LENGTH_LONG).show();
                 flag = 2;
             case 2:
                 air.startAnimation(animTranslateAir);

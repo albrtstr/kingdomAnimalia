@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal21_kelas_coelenterata extends AppCompatActivity {
@@ -25,14 +26,14 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal21_kelas_coelenterata.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal21_kelas_coelenterata.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal21_kelas_coelenterata.this, hal17_filum_coelenterata.class));
+                startActivity(new Intent(hal21_kelas_coelenterata.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

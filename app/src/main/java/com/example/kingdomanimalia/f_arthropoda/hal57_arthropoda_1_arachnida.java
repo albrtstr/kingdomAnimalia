@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kingdomanimalia.R;
+import com.example.kingdomanimalia.a_porifera.hal14_kelas_porifera_1_calcarea;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal57_arthropoda_1_arachnida extends AppCompatActivity {
@@ -23,7 +25,7 @@ public class hal57_arthropoda_1_arachnida extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal57_arthropoda_1_arachnida.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal57_arthropoda_1_arachnida.this, hal4_menu_screen.class));
                 finish();
             }
         });
@@ -34,6 +36,9 @@ public class hal57_arthropoda_1_arachnida extends AppCompatActivity {
                 finish();
             }
         });
+
+
+
     }
 
     public boolean onTouchEvent(MotionEvent touchEvent) {

@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kingdomanimalia.R;
 import com.example.kingdomanimalia.f_arthropoda.hal53_filum_arthropoda;
 import com.example.kingdomanimalia.f_arthropoda.hal54_struktur_arthropoda;
+import com.example.kingdomanimalia.hal4_menu_screen;
 import com.example.kingdomanimalia.hal7_menu_jelajah_filum;
 
 public class hal75_struktur_enchinodermata extends AppCompatActivity {
@@ -25,14 +26,14 @@ public class hal75_struktur_enchinodermata extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal75_struktur_enchinodermata.this, hal7_menu_jelajah_filum.class));
+                startActivity(new Intent(hal75_struktur_enchinodermata.this, hal4_menu_screen.class));
                 finish();
             }
         });
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal75_struktur_enchinodermata.this, hal74_filum_enchinodermata.class));
+                startActivity(new Intent(hal75_struktur_enchinodermata.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
         });

@@ -19,9 +19,10 @@
 
         <ImageView
             android:layout_width="wrap_content"
+            android:id="@+id/btnback"
             android:layout_height="wrap_content"
             android:layout_marginEnd="20dp"
-            android:background="@drawable/button_arrow_left"
+            android:background="@drawable/button_exit_new"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
     </LinearLayout>
 
@@ -38,6 +39,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnhome"
             android:layout_marginEnd="20dp"
             android:background="@drawable/button_home"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
