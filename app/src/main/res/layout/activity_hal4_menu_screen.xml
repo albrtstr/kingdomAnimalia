@@ -63,6 +63,27 @@
                 android:contentDescription="@string/button_menu"></ImageButton>
         </LinearLayout>
 
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/button_tp" />
+
+            <ImageButton
+                android:id="@+id/button_tujuan_pembelajaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_tujuan_pembelajaran"
+                android:contentDescription="@string/button_menu"></ImageButton>
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
