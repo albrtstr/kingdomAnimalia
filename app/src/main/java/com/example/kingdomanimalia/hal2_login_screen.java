@@ -3,6 +3,7 @@ package com.example.kingdomanimalia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -10,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.kingdomanimalia.DbHelper.DbHelper;
+import com.example.kingdomanimalia.h_platyhelminthes.hal33_daurfasciola_2;
 
 public class hal2_login_screen extends AppCompatActivity {
     DbHelper dbHelper;
@@ -29,7 +31,8 @@ public class hal2_login_screen extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal2_login_screen.this,R.raw.klik);
+                mp.start();
                 inputNama = nama.getText().toString();
                 //input ke db sqlite
                 dbHelper.inserData(inputNama);

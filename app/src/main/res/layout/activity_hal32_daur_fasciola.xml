@@ -41,7 +41,7 @@
                 android:fontFamily="@font/spacemono_bold"
                 android:justificationMode="inter_word"
                 android:padding="5dp"
-                android:text="@string/hal32_fasciola" />
+                android:text="Note : Susunlah puzzle diatas untuk melanjutkan penjelajahan ketahap berikutnya!" />
         </RelativeLayout>
     </LinearLayout>
 

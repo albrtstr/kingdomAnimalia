@@ -3,6 +3,7 @@ package com.example.kingdomanimalia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -20,21 +21,14 @@ public class hal6_menu_kdi_2 extends AppCompatActivity {
         setContentView(R.layout.activity_hal6_menu_kdi_2);
 
         ImageView home = findViewById(R.id.btnhome);
-        ImageView back = findViewById(R.id.btnback);
 
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal6_menu_kdi_2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal6_menu_kdi_2.this, hal4_menu_screen.class));
                 finish();
-            }
-        });
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(hal6_menu_kdi_2.this, hal5_menu_kdi.class));
-               
             }
         });
     }
@@ -49,11 +43,18 @@ public class hal6_menu_kdi_2 extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 > x2){
+                if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal6_menu_kdi_2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal6_menu_kdi_2.this, hal5_menu_kdi.class);
                     startActivity(i);
                     finish();
-
+                }else if(x1 > x2) {
+                    MediaPlayer mp = MediaPlayer.create(hal6_menu_kdi_2.this,R.raw.sipe);
+                    mp.start();
+                    Intent i = new Intent(hal6_menu_kdi_2.this, hal6_menu_kdi_3.class);
+                    startActivity(i);
+                    finish();
                 }
                 break;
         }

@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.g_echinodermata;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal81_enchinodermata_4_holo2 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal81_enchinodermata_4_holo2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal81_enchinodermata_4_holo2.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal81_enchinodermata_4_holo2 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal81_enchinodermata_4_holo2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal81_enchinodermata_4_holo2.this, hal76_kelas_enchinodermata.class));
                 finish();
             }
@@ -42,6 +47,8 @@ public class hal81_enchinodermata_4_holo2 extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal81_enchinodermata_4_holo2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal81_enchinodermata_4_holo2.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -59,6 +66,8 @@ public class hal81_enchinodermata_4_holo2 extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                  if(x1 < x2){
+                     MediaPlayer mp = MediaPlayer.create(hal81_enchinodermata_4_holo2.this,R.raw.sipe);
+                     mp.start();
                     Intent i = new Intent(hal81_enchinodermata_4_holo2.this, hal80_enchinodermata_4_holo.class);
                     startActivity(i);
                     finish();

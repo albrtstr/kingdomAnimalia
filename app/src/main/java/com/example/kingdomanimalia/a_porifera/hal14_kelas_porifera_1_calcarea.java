@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.a_porifera;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -23,6 +24,8 @@ public class hal14_kelas_porifera_1_calcarea extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal14_kelas_porifera_1_calcarea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal14_kelas_porifera_1_calcarea.this, hal4_menu_screen.class));
                 finish();
             }
@@ -30,6 +33,8 @@ public class hal14_kelas_porifera_1_calcarea extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal14_kelas_porifera_1_calcarea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal14_kelas_porifera_1_calcarea.this, hal13_kelas_porifera.class));
                 finish();
             }
@@ -40,6 +45,8 @@ public class hal14_kelas_porifera_1_calcarea extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal14_kelas_porifera_1_calcarea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal14_kelas_porifera_1_calcarea.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

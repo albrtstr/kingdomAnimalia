@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.h_platyhelminthes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -28,6 +29,8 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal27_kelas_platyhelminthes.this, hal4_menu_screen.class));
                 finish();
             }
@@ -35,6 +38,8 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal27_kelas_platyhelminthes.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -47,6 +52,8 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal27_kelas_platyhelminthes.this, hal28_kelas_platyhelminthes_1_turbellaria.class));
             }
         });
@@ -54,6 +61,8 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal27_kelas_platyhelminthes.this,hal29_kelas_platyhelminthes_2_trematoda.class));
             }
         });
@@ -61,6 +70,8 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal27_kelas_platyhelminthes.this,hal30_kelas_platyhelminthes_3_cestoda.class));
             }
         });
@@ -76,12 +87,16 @@ public class hal27_kelas_platyhelminthes extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal27_kelas_platyhelminthes.this, hal31_regenerasi_dugesia.class);
                     startActivity(i);
                     finish();
 
                 }
                 else if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal27_kelas_platyhelminthes.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal27_kelas_platyhelminthes.this,hal26_struktur_platyhelminthes.class);
                     startActivity(i);
                     finish();

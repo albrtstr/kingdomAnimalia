@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.a_porifera;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +25,9 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal13_kelas_porifera.this, hal4_menu_screen.class));
                 finish();
             }
@@ -31,6 +35,8 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal13_kelas_porifera.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -44,6 +50,8 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         calcarea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal13_kelas_porifera.this,hal14_kelas_porifera_1_calcarea.class));
             }
         });
@@ -51,6 +59,8 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         hexa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal13_kelas_porifera.this,hal15_kelas_porifera_2_hexatinellide.class));
             }
         });
@@ -58,6 +68,8 @@ public class hal13_kelas_porifera extends AppCompatActivity {
         demos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal13_kelas_porifera.this,hal16_kelas_porifera_3_demospongiae.class));
             }
         });
@@ -80,6 +92,8 @@ public class hal13_kelas_porifera extends AppCompatActivity {
 //                }
 //                else
                 if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal13_kelas_porifera.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal13_kelas_porifera.this,hal12_porifera.class);
                     startActivity(i);
                     finish();

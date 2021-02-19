@@ -33,11 +33,11 @@
         android:scaleY="1">
 
         <ImageView
-            android:id="@+id/btnback"
-
+            android:id="@+id/btnhomee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_arrow_right"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/button_home"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
     </LinearLayout>
 </RelativeLayout>

@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.a_porifera;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -38,6 +39,9 @@ public class hal11_porifera extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                MediaPlayer mp = MediaPlayer.create(hal11_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal11_porifera.this, hal4_menu_screen.class));
                 finish();
             }
@@ -45,6 +49,8 @@ public class hal11_porifera extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal11_porifera.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal11_porifera.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -58,6 +64,8 @@ public class hal11_porifera extends AppCompatActivity {
         siram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal11_porifera.this,R.raw.klik);
+                mp.start();
                 air.setVisibility(View.INVISIBLE);
                 animasi(flag);
             }
@@ -100,12 +108,16 @@ public class hal11_porifera extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal11_porifera.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal11_porifera.this, hal12_porifera.class);
                     startActivity(i);
                     finish();
 
                 }
                 else if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal11_porifera.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal11_porifera.this, hal10_porifera.class);
                     startActivity(i);
                     finish();

@@ -3,6 +3,7 @@ package com.example.kingdomanimalia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -37,9 +38,12 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
 
         ImageView home = findViewById(R.id.btnhome);
 
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal4_menu_screen.class));
                 finish();
             }
@@ -47,6 +51,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         porifera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal8_filum_porifera.class));
             }
         });
@@ -55,6 +61,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         coelenterata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal17_filum_coelenterata.class));
 
             }
@@ -63,6 +71,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         nemathelminthes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal34_filum_nemathelminthes.class));
 
             }
@@ -71,6 +81,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         annelida.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal41_filum_annelida.class));
 
             }
@@ -79,6 +91,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         mollusca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal47_filum_mollusca.class));
 
             }
@@ -87,6 +101,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         arthropoda.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal53_filum_arthropoda.class));
 
             }
@@ -95,6 +111,8 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         echinodermata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal74_filum_enchinodermata.class));
 
             }
@@ -103,8 +121,11 @@ public class hal7_menu_jelajah_filum extends AppCompatActivity {
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal7_menu_jelajah_filum.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal7_menu_jelajah_filum.this, hal25_filum_platyhelminthes.class));
             }
         });
     }
+    
 }

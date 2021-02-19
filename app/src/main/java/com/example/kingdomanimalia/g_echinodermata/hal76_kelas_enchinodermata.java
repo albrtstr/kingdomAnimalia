@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.g_echinodermata;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -26,6 +27,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this, hal4_menu_screen.class));
                 finish();
             }
@@ -33,6 +36,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -47,6 +52,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         asteroid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this,hal77_enchinodermata_1_asteroidea.class));
             }
         });
@@ -54,7 +61,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         ophi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this,hal78_enchinodermata_2_ophiuroidea.class));
             }
         });
@@ -62,7 +70,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         enchi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this,hal79_enchinodermata_3_enchinoidea.class));
             }
         });
@@ -70,7 +79,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         holo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this,hal80_enchinodermata_4_holo.class));
             }
         });
@@ -78,7 +88,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
         crino.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal76_kelas_enchinodermata.this,hal82_enchinodermata_5_crino.class));
             }
         });
@@ -95,6 +106,8 @@ public class hal76_kelas_enchinodermata extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal76_kelas_enchinodermata.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal76_kelas_enchinodermata.this, hal84_terima_kasih.class);
                     startActivity(i);
                     finish();

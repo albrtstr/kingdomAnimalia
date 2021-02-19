@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.g_echinodermata;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal79_enchinodermata_3_enchinoidea extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal79_enchinodermata_3_enchinoidea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal79_enchinodermata_3_enchinoidea.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal79_enchinodermata_3_enchinoidea extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal79_enchinodermata_3_enchinoidea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal79_enchinodermata_3_enchinoidea.this, hal76_kelas_enchinodermata.class));
                 finish();
             }
@@ -42,6 +47,8 @@ public class hal79_enchinodermata_3_enchinoidea extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal79_enchinodermata_3_enchinoidea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal79_enchinodermata_3_enchinoidea.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

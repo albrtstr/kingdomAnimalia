@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.f_arthropoda;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal63_struktur_udang2 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal63_struktur_udang2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal63_struktur_udang2.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal63_struktur_udang2 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal63_struktur_udang2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal63_struktur_udang2.this, hal55_kelas_arthropoda.class));
                 finish();
             }
@@ -41,6 +46,8 @@ public class hal63_struktur_udang2 extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal63_struktur_udang2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal63_struktur_udang2.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -58,12 +65,16 @@ public class hal63_struktur_udang2 extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal63_struktur_udang2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal63_struktur_udang2.this, hal64_struktur_udang3.class);
                     startActivity(i);
                     finish();
 
                 }
                 else if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal63_struktur_udang2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal63_struktur_udang2.this, hal62_struktur_udang.class);
                     startActivity(i);
                     finish();

@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.media.Image;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -60,6 +61,8 @@ public class hal19_coelenterata extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal19_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal19_coelenterata.this, hal4_menu_screen.class));
                 finish();
             }
@@ -67,6 +70,8 @@ public class hal19_coelenterata extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal19_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal19_coelenterata.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

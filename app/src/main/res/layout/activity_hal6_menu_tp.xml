@@ -13,6 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
+<<<<<<< Updated upstream
+=======
+        android:layout_marginBottom="160dp"
+        android:layout_marginStart="50dp"
+>>>>>>> Stashed changes
         android:orientation="vertical">
         <ImageView
             android:layout_width="wrap_content"
@@ -34,12 +39,15 @@
         android:scaleY="1">
 
         <ImageView
+<<<<<<< Updated upstream
             android:id="@+id/btnback"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/button_arrow_left"
             android:contentDescription="@string/icon_petunjuk"></ImageView>
         <ImageView
+=======
+>>>>>>> Stashed changes
             android:id="@+id/btnhome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

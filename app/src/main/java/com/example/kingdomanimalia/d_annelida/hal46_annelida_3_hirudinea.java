@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.d_annelida;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal46_annelida_3_hirudinea extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal46_annelida_3_hirudinea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal46_annelida_3_hirudinea.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,7 +35,9 @@ public class hal46_annelida_3_hirudinea extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(hal46_annelida_3_hirudinea.this, hal46_annelida_3_hirudinea.class));
+                MediaPlayer mp = MediaPlayer.create(hal46_annelida_3_hirudinea.this,R.raw.klik);
+                mp.start();
+                startActivity(new Intent(hal46_annelida_3_hirudinea.this, hal43_kelas_annelida.class));
                 finish();
             }
         });
@@ -42,6 +47,8 @@ public class hal46_annelida_3_hirudinea extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal46_annelida_3_hirudinea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal46_annelida_3_hirudinea.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

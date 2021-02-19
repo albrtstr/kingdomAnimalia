@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.a_porifera;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -22,6 +23,9 @@ public class hal15_kelas_porifera_2_hexatinellide extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                MediaPlayer mp = MediaPlayer.create(hal15_kelas_porifera_2_hexatinellide.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal14_kelas_porifera_1_calcarea.class));
                 finish();
             }
@@ -29,6 +33,8 @@ public class hal15_kelas_porifera_2_hexatinellide extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal15_kelas_porifera_2_hexatinellide.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal13_kelas_porifera.class));
                 finish();
             }
@@ -39,6 +45,8 @@ public class hal15_kelas_porifera_2_hexatinellide extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal15_kelas_porifera_2_hexatinellide.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal15_kelas_porifera_2_hexatinellide.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

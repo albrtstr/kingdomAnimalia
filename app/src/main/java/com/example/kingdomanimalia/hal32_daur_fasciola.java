@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MotionEvent;
@@ -57,6 +58,8 @@ public class hal32_daur_fasciola extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal32_daur_fasciola.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal32_daur_fasciola.this, hal4_menu_screen.class));
                 finish();
             }
@@ -64,6 +67,8 @@ public class hal32_daur_fasciola extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal32_daur_fasciola.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal32_daur_fasciola.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -202,7 +207,7 @@ public class hal32_daur_fasciola extends AppCompatActivity {
                                     ((Activity)context).finish();
 
                                 }
-                            }, 3500);
+                            }, 2000);
 
         }
     }

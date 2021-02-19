@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.b_coelenterata;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -26,6 +27,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal21_kelas_coelenterata.this, hal4_menu_screen.class));
                 finish();
             }
@@ -33,6 +36,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal21_kelas_coelenterata.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -46,6 +51,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         coelenterata_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal21_kelas_coelenterata.this,hal22_kelas_coelenterata_1_hydrozoa.class));
             }
         });
@@ -53,7 +60,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         coelenterata_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal21_kelas_coelenterata.this,hal23_kelas_coelenterata_2_scypozoa.class));
             }
         });
@@ -61,7 +69,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
         coelenterata_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal21_kelas_coelenterata.this,hal23_kelas_coelenterata_2_scypozoa.class));
             }
         });
@@ -77,6 +86,8 @@ public class hal21_kelas_coelenterata extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                  if(x1 < x2){
+                     MediaPlayer mp = MediaPlayer.create(hal21_kelas_coelenterata.this,R.raw.sipe);
+                     mp.start();
                     Intent i = new Intent(hal21_kelas_coelenterata.this,hal20_coelenterata.class);
                     startActivity(i);
                     finish();

@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.c_nemathelminthes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -29,6 +30,9 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal4_menu_screen.class));
                 finish();
             }
@@ -36,6 +40,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -49,6 +55,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this,hal37_nemathelmintes_1_ascaris.class));
             }
         });
@@ -56,7 +64,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this,hal38_nemathelmintes_2_ancylostoma.class));
             }
         });
@@ -64,7 +73,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this,hal39_nemathelmintes_3_oxyuris.class));
             }
         });
@@ -72,7 +82,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal36_contoh_nemathelminthes.this,hal38_nemathelmintes_2_ancylostoma.class));
             }
         });
@@ -89,6 +100,8 @@ public class hal36_contoh_nemathelminthes extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                  if(x1 < x2){
+                     MediaPlayer mp = MediaPlayer.create(hal36_contoh_nemathelminthes.this,R.raw.sipe);
+                     mp.start();
                     Intent i = new Intent(hal36_contoh_nemathelminthes.this, hal35_struktur_nemathelminthes.class);
                     startActivity(i);
                     finish();

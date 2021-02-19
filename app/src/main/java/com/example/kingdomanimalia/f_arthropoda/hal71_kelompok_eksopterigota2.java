@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.f_arthropoda;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +25,8 @@ public class hal71_kelompok_eksopterigota2 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal71_kelompok_eksopterigota2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal71_kelompok_eksopterigota2.this, hal4_menu_screen.class));
                 finish();
             }
@@ -31,6 +34,8 @@ public class hal71_kelompok_eksopterigota2 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal71_kelompok_eksopterigota2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal71_kelompok_eksopterigota2.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -47,12 +52,16 @@ public class hal71_kelompok_eksopterigota2 extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal71_kelompok_eksopterigota2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal71_kelompok_eksopterigota2.this, hal72_kelompok_endopterigota.class);
                     startActivity(i);
                     finish();
 
                 }
                 else if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal71_kelompok_eksopterigota2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal71_kelompok_eksopterigota2.this, hal70_kelompok_eksopterigota.class);
                     startActivity(i);
                     finish();

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Kingdom Animalia</string>
-    <string name="text_login">Silahkan masukkan nama Anda pada kolom dibawah untuk melakukan penjelajahan di dunia hewan</string>
+    <string name="text_login">Silahkan masukkan nama anda pada kolom dibawah untuk melakukan penjelajahan di dunia hewan</string>
     <string name="text_penutup">Anda telah menyelesaikan penjelajahan pada delapan filum Kingdom Animalia. Sekarang saatnya untuk berenang menuju misi berikutnya.</string>
     <string name="text_filum_porifera">Porifera merupakan hewan invertebrata yang tubuhnya berpori seperti busa atau spons.</string>
     <string name="title_kelas_porifera">title kelas porifera</string>
@@ -50,7 +50,7 @@
     <string name="button_menu">button menu</string>
     <string name="selamat_datang">Selamat Datang</string>
     <string name="terima_kasih">Terima Kasih</string>
-    <string name="name">Name</string>
+    <string name="name">Nama</string>
     <string name="button_jelajah">button jelajah</string>
     <string name="image_welcome">image welcome</string>
     <string name="image_bye">image bye</string>

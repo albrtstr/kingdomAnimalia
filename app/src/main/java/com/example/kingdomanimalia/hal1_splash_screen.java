@@ -17,7 +17,7 @@ public class hal1_splash_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_hal1_splash_screen);
-
+		startService(new Intent(this, MyService.class));
         dbHelper = new DbHelper(this,"",null,1);
 
 		new Handler().postDelayed(new Runnable() {

@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.f_arthropoda;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -26,6 +27,8 @@ public class hal60_arthropoda_2_myriapoda2 extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal60_arthropoda_2_myriapoda2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal60_arthropoda_2_myriapoda2.this, hal4_menu_screen.class));
                 finish();
             }
@@ -33,6 +36,8 @@ public class hal60_arthropoda_2_myriapoda2 extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal60_arthropoda_2_myriapoda2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal60_arthropoda_2_myriapoda2.this, hal55_kelas_arthropoda.class));
                 finish();
             }
@@ -43,6 +48,8 @@ public class hal60_arthropoda_2_myriapoda2 extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal60_arthropoda_2_myriapoda2.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal60_arthropoda_2_myriapoda2.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -60,6 +67,8 @@ public class hal60_arthropoda_2_myriapoda2 extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal60_arthropoda_2_myriapoda2.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal60_arthropoda_2_myriapoda2.this, hal59_arthropoda_2_myriapoda.class);
                     startActivity(i);
                     finish();

@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.c_nemathelminthes;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal38_nemathelmintes_2_ancylostoma extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal38_nemathelmintes_2_ancylostoma.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal38_nemathelmintes_2_ancylostoma.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal38_nemathelmintes_2_ancylostoma extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal38_nemathelmintes_2_ancylostoma.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal38_nemathelmintes_2_ancylostoma.this, hal36_contoh_nemathelminthes.class));
                 finish();
             }
@@ -42,6 +47,8 @@ public class hal38_nemathelmintes_2_ancylostoma extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal38_nemathelmintes_2_ancylostoma.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal38_nemathelmintes_2_ancylostoma.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

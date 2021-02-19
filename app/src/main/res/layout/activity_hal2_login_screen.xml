@@ -13,16 +13,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="50dp"
         android:scaleX="1.3"
-        android:scaleY="1.3">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/button_audio"
-            android:contentDescription="@string/icon_petunjuk">
-        </ImageView>
-    </LinearLayout>
+        android:scaleY="1.3"/>
 
     <LinearLayout
         android:id="@+id/ln2"
@@ -67,19 +58,20 @@
         android:layout_below="@id/ln3"
         android:layout_centerHorizontal="true"
         android:orientation="horizontal">
+
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_marginTop="10dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/name"
-            android:textColorHint="@color/white"
-            android:textAlignment="center"
             android:background="@drawable/textfield_user"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             tools:ignore="LabelFor" />
     </LinearLayout>
 

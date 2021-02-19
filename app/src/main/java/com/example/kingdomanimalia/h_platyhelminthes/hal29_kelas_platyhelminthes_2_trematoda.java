@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.h_platyhelminthes;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal29_kelas_platyhelminthes_2_trematoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal29_kelas_platyhelminthes_2_trematoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal29_kelas_platyhelminthes_2_trematoda.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal29_kelas_platyhelminthes_2_trematoda extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal29_kelas_platyhelminthes_2_trematoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal29_kelas_platyhelminthes_2_trematoda.this, hal27_kelas_platyhelminthes.class));
                 finish();
             }
@@ -42,6 +47,8 @@ public class hal29_kelas_platyhelminthes_2_trematoda extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal29_kelas_platyhelminthes_2_trematoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal29_kelas_platyhelminthes_2_trematoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

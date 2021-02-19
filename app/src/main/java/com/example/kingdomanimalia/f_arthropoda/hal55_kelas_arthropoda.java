@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.f_arthropoda;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -45,6 +50,8 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this,hal57_arthropoda_1_arachnida.class));
             }
         });
@@ -52,6 +59,8 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this,hal59_arthropoda_2_myriapoda.class));
             }
         });
@@ -59,13 +68,16 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this,hal61_arthropoda_3_crustacea.class));
             }
         });
 
         d.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) {  MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal55_kelas_arthropoda.this,hal65_arthropoda_4_insecta.class));
             }
         });
@@ -84,12 +96,16 @@ public class hal55_kelas_arthropoda extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal55_kelas_arthropoda.this, hal56_pembagian_arthropoda.class);
                     startActivity(i);
                     finish();
 
                 }
                 else if(x1 < x2){
+                    MediaPlayer mp = MediaPlayer.create(hal55_kelas_arthropoda.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal55_kelas_arthropoda.this, hal54_struktur_arthropoda.class);
                     startActivity(i);
                     finish();

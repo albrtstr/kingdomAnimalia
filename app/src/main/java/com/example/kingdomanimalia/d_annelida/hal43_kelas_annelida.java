@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.d_annelida;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -28,6 +29,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal43_kelas_annelida.this, hal4_menu_screen.class));
                 finish();
             }
@@ -35,6 +38,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal43_kelas_annelida.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -47,6 +52,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal43_kelas_annelida.this,hal44_annelida_1_polychaeta.class));
             }
         });
@@ -54,6 +61,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal43_kelas_annelida.this,hal45_annelida_2_oligochaeta.class));
             }
         });
@@ -61,6 +70,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal43_kelas_annelida.this,hal46_annelida_3_hirudinea.class));
             }
         });
@@ -77,6 +88,8 @@ public class hal43_kelas_annelida extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
          if(x1 < x2){
+             MediaPlayer mp = MediaPlayer.create(hal43_kelas_annelida.this,R.raw.sipe);
+             mp.start();
                     Intent i = new Intent(hal43_kelas_annelida.this, hal42_struktur_annelida.class);
                     startActivity(i);
                     finish();

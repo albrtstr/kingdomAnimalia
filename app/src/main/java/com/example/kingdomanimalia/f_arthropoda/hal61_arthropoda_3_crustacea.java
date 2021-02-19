@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.f_arthropoda;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal61_arthropoda_3_crustacea extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal61_arthropoda_3_crustacea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal61_arthropoda_3_crustacea.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal61_arthropoda_3_crustacea extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal61_arthropoda_3_crustacea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal61_arthropoda_3_crustacea.this, hal55_kelas_arthropoda.class));
                 finish();
             }
@@ -42,6 +47,8 @@ public class hal61_arthropoda_3_crustacea extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal61_arthropoda_3_crustacea.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal61_arthropoda_3_crustacea.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -59,6 +66,8 @@ public class hal61_arthropoda_3_crustacea extends AppCompatActivity {
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
                 if(x1 > x2){
+                    MediaPlayer mp = MediaPlayer.create(hal61_arthropoda_3_crustacea.this,R.raw.sipe);
+                    mp.start();
                     Intent i = new Intent(hal61_arthropoda_3_crustacea.this, hal62_struktur_udang.class);
                     startActivity(i);
                     finish();

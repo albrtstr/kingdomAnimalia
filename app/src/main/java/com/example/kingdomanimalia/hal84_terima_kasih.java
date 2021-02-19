@@ -3,6 +3,7 @@ package com.example.kingdomanimalia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,6 +23,8 @@ public class hal84_terima_kasih extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal84_terima_kasih.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal84_terima_kasih.this, hal4_menu_screen.class));
                 finish();
             }
@@ -29,6 +32,8 @@ public class hal84_terima_kasih extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal84_terima_kasih.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal84_terima_kasih.this, hal4_menu_screen.class));
                 finish();
             }

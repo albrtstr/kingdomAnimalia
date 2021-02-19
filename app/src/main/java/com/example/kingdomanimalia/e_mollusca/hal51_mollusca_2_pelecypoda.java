@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.e_mollusca;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -25,6 +26,8 @@ public class hal51_mollusca_2_pelecypoda extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal51_mollusca_2_pelecypoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal51_mollusca_2_pelecypoda.this, hal4_menu_screen.class));
                 finish();
             }
@@ -32,6 +35,8 @@ public class hal51_mollusca_2_pelecypoda extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal51_mollusca_2_pelecypoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal51_mollusca_2_pelecypoda.this, hal49_kelas_mollusca.class));
                 finish();
             }
@@ -41,6 +46,8 @@ public class hal51_mollusca_2_pelecypoda extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal51_mollusca_2_pelecypoda.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal51_mollusca_2_pelecypoda.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

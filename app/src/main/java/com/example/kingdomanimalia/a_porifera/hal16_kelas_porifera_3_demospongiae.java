@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.a_porifera;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -23,6 +24,8 @@ public class hal16_kelas_porifera_3_demospongiae extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal16_kelas_porifera_3_demospongiae.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal16_kelas_porifera_3_demospongiae.this, hal14_kelas_porifera_1_calcarea.class));
                 finish();
             }
@@ -30,6 +33,8 @@ public class hal16_kelas_porifera_3_demospongiae extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal16_kelas_porifera_3_demospongiae.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal16_kelas_porifera_3_demospongiae.this, hal13_kelas_porifera.class));
                 finish();
             }

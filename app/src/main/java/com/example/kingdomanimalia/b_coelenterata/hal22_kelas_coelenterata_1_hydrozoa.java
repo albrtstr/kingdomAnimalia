@@ -3,6 +3,7 @@ package com.example.kingdomanimalia.b_coelenterata;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -24,6 +25,8 @@ public class hal22_kelas_coelenterata_1_hydrozoa extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal22_kelas_coelenterata_1_hydrozoa.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal22_kelas_coelenterata_1_hydrozoa.this, hal4_menu_screen.class));
                 finish();
             }
@@ -31,6 +34,8 @@ public class hal22_kelas_coelenterata_1_hydrozoa extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal22_kelas_coelenterata_1_hydrozoa.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal22_kelas_coelenterata_1_hydrozoa.this, hal21_kelas_coelenterata.class));
                 finish();
             }
@@ -40,6 +45,8 @@ public class hal22_kelas_coelenterata_1_hydrozoa extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal22_kelas_coelenterata_1_hydrozoa.this,R.raw.sipe);
+                mp.start();
                 startActivity(new Intent(hal22_kelas_coelenterata_1_hydrozoa.this, hal7_menu_jelajah_filum.class));
                 finish();
             }

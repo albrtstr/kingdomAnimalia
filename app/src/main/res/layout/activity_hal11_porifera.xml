@@ -16,19 +16,15 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:padding="10dp"
             android:src="@drawable/judul_10"/>
 
 
-
-
-        <GridLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="100dp"
-            android:padding="20dp"
-            android:columnCount="3"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -38,18 +34,19 @@
 
                 <ImageView
 
-                    android:gravity="center"
                     android:id="@+id/air_10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/air_10"/>
+                    android:gravity="center"
+                    android:src="@drawable/air_10" />
+
                 <ImageView
                     android:id="@+id/siram_10"
-                    android:layout_below="@id/air_10"
                     android:layout_width="100dp"
                     android:layout_height="200dp"
+                    android:layout_below="@id/air_10"
                     android:scaleType="fitXY"
-                    android:src="@drawable/gambar_11"/>
+                    android:src="@drawable/gambar_11" />
 
 
             </LinearLayout>
@@ -64,44 +61,44 @@
                     android:layout_width="70dp"
                     android:layout_height="match_parent"
 
-                    android:layout_marginBottom="270dp"
-                    android:layout_marginTop="150dp"
                     android:layout_row="0"
                     android:layout_column="1"
                     android:layout_gravity="bottom"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginBottom="270dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/tangki_10" />
 
             </RelativeLayout>
 
             <LinearLayout
-                android:layout_width="200dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="20dp">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/sycon_11"
                     android:layout_gravity="center"
-                    android:padding="10dp"/>
+                    android:padding="10dp"
+                    android:src="@drawable/sycon_11" />
+
                 <TextView
 
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/no_11"
-                    android:padding="10dp"
+                    android:background="@drawable/back_10"
+android:padding="10dp"
                     android:fontFamily="@font/spacemono_bold"
-                   android:textAlignment="center"
-                    android:background="@drawable/back_10"/>
+                    android:text="@string/no_11"
+                    android:textAlignment="center" />
 
 
             </LinearLayout>
 
 
-
-
-        </GridLayout>
+        </LinearLayout>
 
 
 

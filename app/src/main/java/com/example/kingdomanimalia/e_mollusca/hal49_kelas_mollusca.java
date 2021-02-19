@@ -1,6 +1,7 @@
 package com.example.kingdomanimalia.e_mollusca;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -28,6 +29,8 @@ public class hal49_kelas_mollusca extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal49_kelas_mollusca.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal49_kelas_mollusca.this, hal4_menu_screen.class));
                 finish();
             }
@@ -35,6 +38,8 @@ public class hal49_kelas_mollusca extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal49_kelas_mollusca.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal49_kelas_mollusca.this, hal7_menu_jelajah_filum.class));
                 finish();
             }
@@ -47,6 +52,8 @@ public class hal49_kelas_mollusca extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                MediaPlayer mp = MediaPlayer.create(hal49_kelas_mollusca.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal49_kelas_mollusca.this,hal50_mollusca_1_gastropoda.class));
             }
         });
@@ -54,7 +61,8 @@ public class hal49_kelas_mollusca extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal49_kelas_mollusca.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal49_kelas_mollusca.this,hal51_mollusca_2_pelecypoda.class));
             }
         });
@@ -62,7 +70,8 @@ public class hal49_kelas_mollusca extends AppCompatActivity {
         c.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                MediaPlayer mp = MediaPlayer.create(hal49_kelas_mollusca.this,R.raw.klik);
+                mp.start();
                 startActivity(new Intent(hal49_kelas_mollusca.this,hal52_mollusca_3_cephalopoda.class));
             }
         });
